@@ -1,0 +1,7 @@
+# .gitignore
+.west/
+deps/
+build/
+.venv/
+*.pyc
+__pycache__/
