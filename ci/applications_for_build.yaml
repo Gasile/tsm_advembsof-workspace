@@ -6,4 +6,13 @@ applications:
     configs:
       - gpio
       - log+debug+gpio
-    config_dir: ../deps/zpp_lib/configs
+    configs_dir: ../deps/zpp_lib/configs
+
+  - app: sanitize
+    boards:
+      - board: nrf5340dk/nrf5340/cpuapp
+      - board: qemu_x86
+    configs:
+      - san
+      - log+debug+san
+    configs_dir: ../deps/zpp_lib/configs

@@ -1,0 +1,19 @@
+menu "Zephyr"
+source "Kconfig.zephyr"
+endmenu
+
+config SHELL
+	default y
+
+config SHELL_BACKEND_SERIAL
+	default y
+
+config UART_CONSOLE
+	default y
+
+config SERIAL
+	default y
+
+module = APP
+module-str = APP
+source "subsys/logging/Kconfig.template.log_config"

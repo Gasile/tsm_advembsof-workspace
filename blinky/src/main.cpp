@@ -31,6 +31,7 @@ void blink() {
   }
 }
 
+// Suppress cognitive complexity warning caused by Zephyr ZPP_LOG_* macro expansion
 // NOLINTNEXTLINE(readability-function-cognitive-complexity)
 int main() {
   ZPP_LOG_DBG("Running on board %s", CONFIG_BOARD_TARGET);

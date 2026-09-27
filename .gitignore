@@ -2,6 +2,7 @@
 .west/
 deps/
 build/
+build_clang/
 .venv/
 *.pyc
-__pycache__/build_clang/
+__pycache__/
