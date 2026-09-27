@@ -1,0 +1,9 @@
+applications:
+  - app: blinky
+    boards:
+      - board: nrf5340dk/nrf5340/cpuapp
+      - board: qemu_x86
+    configs:
+      - gpio
+      - log+debug+gpio
+    config_dir: ../deps/zpp_lib/configs
