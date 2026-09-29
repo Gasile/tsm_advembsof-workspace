@@ -16,3 +16,12 @@ applications:
       - san
       - log+debug+san
     configs_dir: ../deps/zpp_lib/configs
+
+  - app: bme280
+    boards:
+      - board: nrf5340dk/nrf5340/cpuapp
+      - board: qemu_x86
+    configs:
+      - sensor
+      - log+debug+sensor
+    configs_dir: ../deps/zpp_lib/configs

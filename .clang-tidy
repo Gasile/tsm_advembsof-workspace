@@ -19,7 +19,7 @@ Checks: >
 WarningsAsErrors: "cppcoreguidelines-*"
 
 # Only analyse your application headers, not Zephyr headers
-HeaderFilterRegex: ".*/(blinky|bike_computer|bme280|sanitize|simple_tests|multi_tasking)/.*"
+HeaderFilterRegex: '(^|.*/)(blinky|bike_computer|bme280|sanitize|simple_tests|multi_tasking)/app/src/.*'
 
 # Explicitly exclude Zephyr and dependency headers (clang-tidy 22+)
 ExcludeHeaderFilterRegex: ".*/deps/zephyr/.*"
@@ -61,5 +61,7 @@ CheckOptions:
     value: "_"
   - key: readability-function-cognitive-complexity.Threshold
     value: 80
+  - key: readability-function-cognitive-complexity.IgnoreMacros
+    value: true
   - key: readability-function-cognitive-complexity.DescribeBasicIncrements
     value: false

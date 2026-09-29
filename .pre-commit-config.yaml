@@ -27,14 +27,21 @@ repos:
   hooks:
   - id: clang-tidy-blinky
     name: clang-tidy-blinky
-    entry: python deps/zpp_lib/scripts/run_clang_tidy.py --app blinky --configs "log+debug+gpio" --wd "."
+    entry: python deps/zpp_lib/scripts/run_clang_tidy.py --app blinky --board "nrf5340dk/nrf5340/cpuapp" --shield "adafruit_2_8_tft_touch_v2" --configs "log+debug+gpio" --wd "." --header-root blinky
     language: system
     pass_filenames: true
     require_serial: true
     files: ^(blinky)/.*\.(c|cc|cpp|cxx)$
+  - id: clang-tidy-bme280
+    name: clang-tidy-bme280
+    entry: python deps/zpp_lib/scripts/run_clang_tidy.py --app bme280 --board "nrf5340dk/nrf5340/cpuapp" --shield "adafruit_2_8_tft_touch_v2" --configs "log+debug+sensor" --wd "." --header-root bme280
+    language: system
+    pass_filenames: true
+    require_serial: true
+    files: ^(bme280)/.*\.(c|cc|cpp|cxx)$
   - id: clang-tidy-sanitize
     name: clang-tidy-sanitize
-    entry: python deps/zpp_lib/scripts/run_clang_tidy.py --app sanitize --configs "log+debug+san" --wd "."
+    entry: python deps/zpp_lib/scripts/run_clang_tidy.py --app sanitize --board "nrf5340dk/nrf5340/cpuapp" --shield "adafruit_2_8_tft_touch_v2" --configs "log+debug+san" --wd "." --header-root sanitize
     language: system
     pass_filenames: true
     require_serial: true
