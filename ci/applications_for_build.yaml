@@ -13,8 +13,8 @@ applications:
       - board: nrf5340dk/nrf5340/cpuapp
       - board: qemu_x86
     configs:
-      - san
-      - log+debug+san
+      - shell+san
+      - log+debug+shell+san
     configs_dir: ../deps/zpp_lib/configs
 
   - app: bme280

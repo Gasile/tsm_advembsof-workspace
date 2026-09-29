@@ -17,5 +17,5 @@ manifest:
           - hal_nordic
     - name: zpp_lib
       url: https://github.com/AdvEmbSof/zpp_lib.git
-      revision: v1.2
+      revision: v1.3
       path: deps/zpp_lib
