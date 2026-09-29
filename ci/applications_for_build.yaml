@@ -8,15 +8,6 @@ applications:
       - log+debug+gpio
     configs_dir: ../deps/zpp_lib/configs
 
-  - app: sanitize
-    boards:
-      - board: nrf5340dk/nrf5340/cpuapp
-      - board: qemu_x86
-    configs:
-      - shell+san
-      - log+debug+shell+san
-    configs_dir: ../deps/zpp_lib/configs
-
   - app: bme280
     boards:
       - board: nrf5340dk/nrf5340/cpuapp
@@ -24,4 +15,14 @@ applications:
     configs:
       - sensor
       - log+debug+sensor
+    configs_dir: ../deps/zpp_lib/configs
+
+  - app: sanitize
+    boards:
+      - board: nrf5340dk/nrf5340/cpuapp
+      - board: qemu_x86
+    configs:
+      - shell
+      - shell+san
+      - shell+debug
     configs_dir: ../deps/zpp_lib/configs

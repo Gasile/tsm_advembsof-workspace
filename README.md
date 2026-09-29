@@ -10,7 +10,7 @@ The `sanitize` application implements a lookup table of size `kLutSize = 8` (`{1
 
 ### 1. Observed Behavior Across Build Configurations (Out-of-Bounds Index)
 
-| Implementation | Production Build (`just build sanitize ""`) | Debug Build (`just build sanitize debug`) | Sanitized Build (`just build sanitize san`) |
+| Implementation | Production Build (`just build sanitize shell`) | Debug Build (`just build sanitize shell+debug`) | Sanitized Build (`just build sanitize shell+san`) |
 | :--- | :--- | :--- | :--- |
 | **0: `lookup_c_assert`** | **Undefined Behavior (UB):** `ZPP_ASSERT` is compiled out (`CONFIG_ASSERT=n`). Reads arbitrary out-of-bounds memory (`kLut[idx]`) and prints garbage value without crashing. | **Controlled Halt:** `ZPP_ASSERT` triggers (`ASSERTION FAIL [idx >= 0 && idx < kLutSize]`), prints the diagnostic message with file/line and offending index, and halts the kernel. | **Runtime Trap:** Assertions are disabled, but UBSan (`-fsanitize=bounds -fsanitize=bounds-strict` + `CONFIG_UBSAN_TRAP=y`) catches the out-of-bounds array access at runtime and triggers a CPU trap / fatal fault. |
 | **1: `lookup_c_safe`** | **Safe Clamping:** Index is clamped to `[0, kLutSize - 1]`. Returns `10` for `idx < 0` and `80` for `idx >= 8`. | **Safe Clamping:** Same as production build. Returns boundary value (`10` or `80`) without fault. | **Safe Clamping:** Same as production build. Since index is clamped before array access, UBSan is never triggered. |
@@ -43,4 +43,4 @@ In `sanitize/src/main.cpp`, option **`4` (`lookup_ubsan_bug`)** implements two c
 2. **Signed Integer Overflow (`-fsanitize=signed-integer-overflow`):** Computes `sensor_value * 1000000000`. When `inc 4` is called 3 times (`sensor_value = 3`), the 32-bit signed multiplication overflows `INT32_MAX` (`2,147,483,647`).
 
 * **Why `clang-tidy` does not detect it:** `sensor_value` is a global `std::atomic<int32_t>` modified dynamically via interactive UART shell commands (`inc` / `dec`). Static analysis cannot know the runtime values passed to `lookup_ubsan_bug()`.
-* **How the sanitizer detects it:** When compiled with `just build sanitize san` (`CONFIG_UBSAN=y`, `-fsanitize=shift`, `-fsanitize=signed-integer-overflow`), GCC instruments the arithmetic and shift instructions and immediately traps at runtime as soon as `dec 4` or 3x `inc 4` is entered in the shell.
+* **How the sanitizer detects it:** When compiled with `just build sanitize shell+san` (`CONFIG_UBSAN=y`, `-fsanitize=shift`, `-fsanitize=signed-integer-overflow`), GCC instruments the arithmetic and shift instructions and immediately traps at runtime as soon as `dec 4` or 3x `inc 4` is entered in the shell.
