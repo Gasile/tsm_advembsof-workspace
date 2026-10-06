@@ -19,3 +19,7 @@ jobs:
       personal_access_token: ${{ secrets.ADVEMBSOF_2026_2027 }}
     with:
       configuration_file: 'ci/applications_for_test.yaml'
+    permissions:
+      checks: write
+      pull-requests: write
+      contents: read
