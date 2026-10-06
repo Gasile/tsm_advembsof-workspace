@@ -1,0 +1,31 @@
+SeaBIOS (version zephyr-v1.16.3-2-0-gf8da0cc-zephyr)
+Booting from ROM..
+Running TESTSUITE ptr_test
+===================================================================
+START - test_instance_sharing
+ PASS - test_instance_sharing in 0.001 seconds
+===================================================================
+START - test_raw_pointers
+ PASS - test_raw_pointers in 0.001 seconds
+===================================================================
+START - test_single_sharedptr_lifetime
+ PASS - test_single_sharedptr_lifetime in 0.001 seconds
+===================================================================
+START - test_unique_ptr
+ PASS - test_unique_ptr in 0.001 seconds
+===================================================================
+TESTSUITE ptr_test succeeded
+
+------ TESTSUITE SUMMARY START ------
+
+SUITE PASS - 100.00% [ptr_test]: pass = 4, fail = 0, skip = 0, total = 4 duration = 0.004 seconds
+ - PASS - [ptr_test.test_instance_sharing] duration = 0.001 seconds
+ - PASS - [ptr_test.test_raw_pointers] duration = 0.001 seconds
+ - PASS - [ptr_test.test_single_sharedptr_lifetime] duration = 0.001 seconds
+ - PASS - [ptr_test.test_unique_ptr] duration = 0.001 seconds
+
+------ TESTSUITE SUMMARY END ------
+
+===================================================================
+RunID: 29dadd798559122473fcc9ab21722be8
+PROJECT EXECUTION SUCCESSFUL

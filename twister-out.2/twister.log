@@ -1,0 +1,152 @@
+2026-10-06 15:59:15,257 - twister - INFO - Using Ninja..
+2026-10-06 15:59:15,330 - twister - INFO - Zephyr version: v4.4.0
+2026-10-06 15:59:15,334 - twister - DEBUG - Running cmake script /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 15:59:15,334 - twister - DEBUG - Calling cmake: /usr/bin/cmake -DFORMAT=json -P /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 15:59:15,638 - twister - DEBUG - Finished running /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 15:59:15,638 - twister - INFO - Using 'zephyr/gnu' toolchain variant.
+2026-10-06 15:59:16,813 - twister - DEBUG - Reading testsuite configuration files under /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos...
+2026-10-06 15:59:16,813 - twister - DEBUG - Found possible testsuite in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/mutex
+2026-10-06 15:59:16,818 - twister - DEBUG - Found possible testsuite in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore
+2026-10-06 15:59:16,819 - twister - DEBUG - Found possible testsuite in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/thread
+2026-10-06 15:59:16,821 - twister - DEBUG - No duplicates found.
+2026-10-06 15:59:16,821 - twister - DEBUG -  platform filter: ['nrf5340dk/nrf5340/cpuapp']
+2026-10-06 15:59:16,822 - twister - DEBUG - platform_pattern: []
+2026-10-06 15:59:16,822 - twister - DEBUG -    vendor filter: []
+2026-10-06 15:59:16,822 - twister - DEBUG -      arch_filter: None
+2026-10-06 15:59:16,822 - twister - DEBUG -       tag_filter: None
+2026-10-06 15:59:16,822 - twister - DEBUG -      exclude_tag: None
+2026-10-06 15:59:16,822 - twister - DEBUG - Checking platform filter: ['nrf5340dk/nrf5340/cpuapp']
+2026-10-06 15:59:16,822 - twister - INFO - Building initial testsuite list...
+2026-10-06 15:59:16,823 - twister - INFO - Built testsuite list in 0.00 seconds
+2026-10-06 15:59:16,823 - twister - INFO - Writing JSON report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/testplan.json
+2026-10-06 15:59:16,840 - twister - INFO - JOBS: 24
+2026-10-06 15:59:16,840 - twister - INFO - Adding tasks to the queue...
+2026-10-06 15:59:16,840 - twister - DEBUG - adding nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.mutex
+2026-10-06 15:59:16,842 - twister - DEBUG - adding nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.semaphore
+2026-10-06 15:59:16,842 - twister - DEBUG - adding nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.thread
+2026-10-06 15:59:16,842 - twister - INFO - Added initial list of jobs to queue
+2026-10-06 15:59:16,852 - twister - DEBUG - Running cmake on /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/thread for nrf5340dk/nrf5340/cpuapp
+2026-10-06 15:59:16,852 - twister - DEBUG - Calling cmake: /usr/bin/cmake -B/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/thread/zpp_lib.zpp_rtos.thread -DTC_RUNID=e134b78633d008e61e086be13da82ca5 -DTC_NAME=zpp_lib.zpp_rtos.thread -DCONFIG_COMPILER_WARNINGS_AS_ERRORS=y -DEXTRA_GEN_EDT_ARGS=--edtlib-Werror -GNinja -DPython3_EXECUTABLE=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/python3.12 -DZEPHYR_TOOLCHAIN_VARIANT=zephyr/gnu -S/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/thread -DDTC_OVERLAY_FILE=../../../configs/boards/nrf5340dk_nrf5340_cpuapp.overlay '-DEXTRA_CONF_FILE=../../../configs/prj.conf;../../../configs/prj_log.conf;../../../configs/prj_test.conf' -DBOARD=nrf5340dk/nrf5340/cpuapp
+2026-10-06 15:59:16,854 - twister - DEBUG - Running cmake on /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore for nrf5340dk/nrf5340/cpuapp
+2026-10-06 15:59:16,855 - twister - DEBUG - Calling cmake: /usr/bin/cmake -B/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/semaphore/zpp_lib.zpp_rtos.semaphore -DTC_RUNID=a16b7f9b4e16dd1feff40fb598800fe7 -DTC_NAME=zpp_lib.zpp_rtos.semaphore -DCONFIG_COMPILER_WARNINGS_AS_ERRORS=y -DEXTRA_GEN_EDT_ARGS=--edtlib-Werror -GNinja -DPython3_EXECUTABLE=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/python3.12 -DZEPHYR_TOOLCHAIN_VARIANT=zephyr/gnu -S/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore -DDTC_OVERLAY_FILE=../../../configs/boards/nrf5340dk_nrf5340_cpuapp.overlay '-DEXTRA_CONF_FILE=../../../configs/prj.conf;../../../configs/prj_test.conf' -DBOARD=nrf5340dk/nrf5340/cpuapp
+2026-10-06 15:59:16,858 - twister - DEBUG - Running cmake on /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/mutex for nrf5340dk/nrf5340/cpuapp
+2026-10-06 15:59:16,859 - twister - DEBUG - Calling cmake: /usr/bin/cmake -B/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/mutex/zpp_lib.zpp_rtos.mutex -DTC_RUNID=b4c39211903f6e4d3be907b77d761189 -DTC_NAME=zpp_lib.zpp_rtos.mutex -DCONFIG_COMPILER_WARNINGS_AS_ERRORS=y -DEXTRA_GEN_EDT_ARGS=--edtlib-Werror -GNinja -DPython3_EXECUTABLE=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/python3.12 -DZEPHYR_TOOLCHAIN_VARIANT=zephyr/gnu -S/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/mutex -DDTC_OVERLAY_FILE=../../../configs/boards/nrf5340dk_nrf5340_cpuapp.overlay '-DEXTRA_CONF_FILE=../../../configs/prj.conf;../../../configs/prj_test.conf' -DBOARD=nrf5340dk/nrf5340/cpuapp
+2026-10-06 15:59:16,899 - twister - DEBUG - Launched 24 jobs
+2026-10-06 15:59:25,217 - twister - DEBUG - Finished running cmake /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore for nrf5340dk/nrf5340/cpuapp in 8.36 seconds
+2026-10-06 15:59:25,219 - twister - DEBUG - Finished running cmake /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/mutex for nrf5340dk/nrf5340/cpuapp in 8.36 seconds
+2026-10-06 15:59:25,221 - twister - DEBUG - build test: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.semaphore
+2026-10-06 15:59:25,221 - twister - DEBUG - Building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore for nrf5340dk/nrf5340/cpuapp
+2026-10-06 15:59:25,222 - twister - DEBUG - Running /usr/bin/cmake --build /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/semaphore/zpp_lib.zpp_rtos.semaphore
+2026-10-06 15:59:25,223 - twister - DEBUG - build test: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.mutex
+2026-10-06 15:59:25,223 - twister - DEBUG - Building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/mutex for nrf5340dk/nrf5340/cpuapp
+2026-10-06 15:59:25,224 - twister - DEBUG - Running /usr/bin/cmake --build /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/mutex/zpp_lib.zpp_rtos.mutex
+2026-10-06 15:59:25,231 - twister - DEBUG - Finished running cmake /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/thread for nrf5340dk/nrf5340/cpuapp in 8.37 seconds
+2026-10-06 15:59:25,234 - twister - DEBUG - build test: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.thread
+2026-10-06 15:59:25,234 - twister - DEBUG - Building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/thread for nrf5340dk/nrf5340/cpuapp
+2026-10-06 15:59:25,235 - twister - DEBUG - Running /usr/bin/cmake --build /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/thread/zpp_lib.zpp_rtos.thread
+2026-10-06 15:59:47,477 - twister - DEBUG - Finished building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/mutex for nrf5340dk/nrf5340/cpuapp in 22.25 seconds
+2026-10-06 15:59:47,477 - twister - DEBUG - Determine test cases for test instance: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.mutex
+2026-10-06 15:59:47,477 - twister - DEBUG - Determine test cases for test suite: zpp_lib.zpp_rtos.mutex
+2026-10-06 15:59:47,566 - twister - DEBUG - Test instance nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.mutex already has 1 testcase(s) known: [<TestCase zpp_lib.zpp_rtos.mutex with None>]
+2026-10-06 15:59:47,566 - twister - DEBUG - Detected 1 Ztest case(s): [zpp_lib.zpp_rtos.mutex.zpp_mutex.mutex_lock_unlock] in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/mutex/zpp_lib.zpp_rtos.mutex/zephyr/zephyr.elf
+2026-10-06 15:59:47,572 - twister - DEBUG - Retain DUT:nrf5340dk/nrf5340/cpuapp, Id:None, counter:1, failures:0
+2026-10-06 15:59:47,573 - twister - DEBUG - run test: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.mutex
+2026-10-06 15:59:47,573 - twister - DEBUG - Reset instance status from 'passed' to None before run.
+2026-10-06 15:59:47,573 - twister - DEBUG - Using serial device /dev/ttyACM0 @ 115200 baud
+2026-10-06 15:59:47,577 - twister - DEBUG - Flash command: ['west', 'flash', '--no-rebuild', '-d', '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/mutex/zpp_lib.zpp_rtos.mutex']
+2026-10-06 15:59:48,710 - twister - DEBUG - Finished building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore for nrf5340dk/nrf5340/cpuapp in 23.49 seconds
+2026-10-06 15:59:48,710 - twister - DEBUG - Determine test cases for test instance: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.semaphore
+2026-10-06 15:59:48,711 - twister - DEBUG - Determine test cases for test suite: zpp_lib.zpp_rtos.semaphore
+2026-10-06 15:59:48,716 - twister - DEBUG - Finished building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/thread for nrf5340dk/nrf5340/cpuapp in 23.48 seconds
+2026-10-06 15:59:48,716 - twister - DEBUG - Determine test cases for test instance: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.thread
+2026-10-06 15:59:48,717 - twister - DEBUG - Determine test cases for test suite: zpp_lib.zpp_rtos.thread
+2026-10-06 15:59:48,821 - twister - DEBUG - Test instance nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.semaphore already has 1 testcase(s) known: [<TestCase zpp_lib.zpp_rtos.semaphore with None>]
+2026-10-06 15:59:48,821 - twister - DEBUG - Detected 1 Ztest case(s): [zpp_lib.zpp_rtos.semaphore.zpp_semaphore.semaphore_release_acquire] in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/semaphore/zpp_lib.zpp_rtos.semaphore/zephyr/zephyr.elf
+2026-10-06 15:59:48,832 - twister - DEBUG - Test instance nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.thread already has 1 testcase(s) known: [<TestCase zpp_lib.zpp_rtos.thread with None>]
+2026-10-06 15:59:48,832 - twister - DEBUG - Detected 3 Ztest case(s): [zpp_lib.zpp_rtos.thread.zpp_thread.round_robin, zpp_lib.zpp_rtos.thread.zpp_thread.sleep_secondary_thread, zpp_lib.zpp_rtos.thread.zpp_thread.sleep_main] in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/thread/zpp_lib.zpp_rtos.thread/zephyr/zephyr.elf
+2026-10-06 15:59:50,860 - twister - DEBUG - -- west flash: using runner nrfutil
+-- runners.nrfutil: reset after flashing requested
+Using board 001050072722
+-- runners.nrfutil: Flashing file: /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/mutex/zpp_lib.zpp_rtos.mutex/zephyr/zephyr.hex
+-- runners.nrfutil: Connecting to probe
+-- runners.nrfutil: Erasing address ranges touched by firmware
+-- runners.nrfutil: Programming image
+-- runners.nrfutil: Verifying image
+-- runners.nrfutil: Reset
+-- runners.nrfutil: Board(s) with serial number(s) 1050072722 flashed successfully.
+
+2026-10-06 16:00:50,860 - twister - DEBUG - Timed out while monitoring serial output on nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:00:50,862 - twister - DEBUG - Expected suite names:[]
+2026-10-06 16:00:50,863 - twister - DEBUG - Detected suite names:[]
+2026-10-06 16:00:50,863 - twister - DEBUG - run status: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.mutex failed
+2026-10-06 16:00:50,863 - twister - DEBUG - Release DUT:nrf5340dk/nrf5340/cpuapp, Id:None, counter:1, failures:1
+2026-10-06 16:00:50,867 - twister - ERROR - nrf5340dk/nrf5340/cpuapp  zpp_lib.zpp_rtos.mutex                             [31mFAILED[39m: Unknown Error
+2026-10-06 16:00:50,868 - twister - ERROR - see: [33m/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/mutex/zpp_lib.zpp_rtos.mutex/build.log[39m
+2026-10-06 16:00:50,869 - twister - DEBUG - Retain DUT:nrf5340dk/nrf5340/cpuapp, Id:None, counter:2, failures:1
+2026-10-06 16:00:50,870 - twister - DEBUG - run test: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.thread
+2026-10-06 16:00:50,870 - twister - DEBUG - Reset instance status from 'passed' to None before run.
+2026-10-06 16:00:50,870 - twister - DEBUG - Using serial device /dev/ttyACM0 @ 115200 baud
+2026-10-06 16:00:50,872 - twister - DEBUG - Flash command: ['west', 'flash', '--no-rebuild', '-d', '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/thread/zpp_lib.zpp_rtos.thread']
+2026-10-06 16:00:54,394 - twister - DEBUG - -- west flash: using runner nrfutil
+-- runners.nrfutil: reset after flashing requested
+Using board 001050072722
+-- runners.nrfutil: Flashing file: /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/thread/zpp_lib.zpp_rtos.thread/zephyr/zephyr.hex
+-- runners.nrfutil: Connecting to probe
+-- runners.nrfutil: Erasing address ranges touched by firmware
+-- runners.nrfutil: Programming image
+-- runners.nrfutil: Verifying image
+-- runners.nrfutil: Reset
+-- runners.nrfutil: Board(s) with serial number(s) 1050072722 flashed successfully.
+
+2026-10-06 16:02:54,395 - twister - DEBUG - Timed out while monitoring serial output on nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:02:54,398 - twister - DEBUG - Expected suite names:[]
+2026-10-06 16:02:54,398 - twister - DEBUG - Detected suite names:[]
+2026-10-06 16:02:54,399 - twister - DEBUG - run status: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.thread failed
+2026-10-06 16:02:54,399 - twister - DEBUG - Release DUT:nrf5340dk/nrf5340/cpuapp, Id:None, counter:2, failures:2
+2026-10-06 16:02:54,403 - twister - ERROR - nrf5340dk/nrf5340/cpuapp  zpp_lib.zpp_rtos.thread                            [31mFAILED[39m: Unknown Error
+2026-10-06 16:02:54,404 - twister - ERROR - see: [33m/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/thread/zpp_lib.zpp_rtos.thread/build.log[39m
+2026-10-06 16:02:54,405 - twister - DEBUG - Retain DUT:nrf5340dk/nrf5340/cpuapp, Id:None, counter:3, failures:2
+2026-10-06 16:02:54,406 - twister - DEBUG - run test: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.semaphore
+2026-10-06 16:02:54,406 - twister - DEBUG - Reset instance status from 'passed' to None before run.
+2026-10-06 16:02:54,406 - twister - DEBUG - Using serial device /dev/ttyACM0 @ 115200 baud
+2026-10-06 16:02:54,407 - twister - DEBUG - Flash command: ['west', 'flash', '--no-rebuild', '-d', '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/semaphore/zpp_lib.zpp_rtos.semaphore']
+2026-10-06 16:02:57,705 - twister - DEBUG - -- west flash: using runner nrfutil
+-- runners.nrfutil: reset after flashing requested
+Using board 001050072722
+-- runners.nrfutil: Flashing file: /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/semaphore/zpp_lib.zpp_rtos.semaphore/zephyr/zephyr.hex
+-- runners.nrfutil: Connecting to probe
+-- runners.nrfutil: Erasing address ranges touched by firmware
+-- runners.nrfutil: Programming image
+-- runners.nrfutil: Verifying image
+-- runners.nrfutil: Reset
+-- runners.nrfutil: Board(s) with serial number(s) 1050072722 flashed successfully.
+
+2026-10-06 16:03:57,706 - twister - DEBUG - Timed out while monitoring serial output on nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:03:57,708 - twister - DEBUG - Expected suite names:[]
+2026-10-06 16:03:57,708 - twister - DEBUG - Detected suite names:[]
+2026-10-06 16:03:57,708 - twister - DEBUG - run status: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/zpp_lib.zpp_rtos.semaphore failed
+2026-10-06 16:03:57,709 - twister - DEBUG - Release DUT:nrf5340dk/nrf5340/cpuapp, Id:None, counter:3, failures:3
+2026-10-06 16:03:57,712 - twister - ERROR - nrf5340dk/nrf5340/cpuapp  zpp_lib.zpp_rtos.semaphore                         [31mFAILED[39m: Unknown Error
+2026-10-06 16:03:57,712 - twister - ERROR - see: [33m/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/semaphore/zpp_lib.zpp_rtos.semaphore/build.log[39m
+2026-10-06 16:03:57,722 - twister - INFO - 3 test scenarios (3 configurations) selected, 0 configurations filtered (0 by static filter, 0 at runtime).
+2026-10-06 16:03:57,736 - twister - INFO - [31m0 of 3[39m executed test configurations passed (0.00%), 0 built (not run), [31m3[39m failed, 0 errored, with no warnings in 282.48 seconds.
+2026-10-06 16:03:57,736 - twister - INFO - 0 of 5 executed test cases passed (0.00%), 5 blocked on 1 out of total 1473 platforms (0.07%).
+2026-10-06 16:03:57,736 - twister - INFO - [32m3[39m test configurations executed on platforms, [36m0[39m test configurations were only built.
+2026-10-06 16:03:57,737 - twister - INFO - Saving reports...
+2026-10-06 16:03:57,737 - twister - INFO - Writing JSON report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister.json
+2026-10-06 16:03:57,738 - twister - INFO - Writing xunit report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister.xml...
+2026-10-06 16:03:57,740 - twister - INFO - Writing xunit report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_report.xml...
+2026-10-06 16:03:57,741 - twister - INFO - -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+2026-10-06 16:03:57,741 - twister - INFO - The following issues were found (showing the top 10 items):
+2026-10-06 16:03:57,741 - twister - INFO - 1) zpp_lib.zpp_rtos.mutex on nrf5340dk/nrf5340/cpuapp failed (Unknown Error)
+2026-10-06 16:03:57,741 - twister - INFO - 2) zpp_lib.zpp_rtos.semaphore on nrf5340dk/nrf5340/cpuapp failed (Unknown Error)
+2026-10-06 16:03:57,741 - twister - INFO - 3) zpp_lib.zpp_rtos.thread on nrf5340dk/nrf5340/cpuapp failed (Unknown Error)
+2026-10-06 16:03:57,741 - twister - INFO - 
+2026-10-06 16:03:57,741 - twister - INFO - To rerun the tests, call twister using the following commandline:
+2026-10-06 16:03:57,742 - twister - INFO - west twister -p <PLATFORM> -s <TEST ID>, for example:
+2026-10-06 16:03:57,742 - twister - INFO - 
+2026-10-06 16:03:57,742 - twister - INFO - west twister -p nrf5340dk/nrf5340/cpuapp -s zpp_lib.zpp_rtos.thread
+2026-10-06 16:03:57,742 - twister - INFO - or with west:
+2026-10-06 16:03:57,742 - twister - INFO - west build -p -b nrf5340dk/nrf5340/cpuapp deps/zpp_lib/zpp_rtos/tests/thread -T zpp_lib.zpp_rtos.thread
+2026-10-06 16:03:57,742 - twister - INFO - -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+2026-10-06 16:03:57,742 - twister - INFO - Run completed

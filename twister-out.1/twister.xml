@@ -1,0 +1,9 @@
+<testsuites>
+	<testsuite name="qemu_x86/atom" timestamp="2026-10-06T15:25:00.634713" time="2.29" tests="2" failures="0" errors="0" skipped="0">
+		<properties>
+			<property name="version" value="v4.4.0" />
+		</properties>
+		<testcase classname="qemu_x86/atom:simple_tests.always_succeed" name="simple_tests.always_succeed" time="1.14" />
+		<testcase classname="qemu_x86/atom:simple_tests.ptr_test" name="simple_tests.ptr_test" time="1.15" />
+	</testsuite>
+</testsuites>

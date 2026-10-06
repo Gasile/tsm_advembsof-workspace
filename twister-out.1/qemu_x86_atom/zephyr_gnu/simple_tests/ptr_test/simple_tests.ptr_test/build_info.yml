@@ -1,0 +1,53 @@
+cmake:
+  application:
+    configuration-dir: '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test'
+    source-dir: '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test'
+  board:
+    name: 'qemu_x86'
+    path:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/boards/qemu/x86'
+    qualifiers: 'atom'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/bindings'
+    files:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/boards/qemu/x86/qemu_x86.dts'
+    include-dirs:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/include'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/include/zephyr'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/common'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/vendor'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/rx'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/x86'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/xtensa'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/sparc'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/riscv'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/posix'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/arm64'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/arm'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/arc'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts'
+  kconfig:
+    extra-user-files:
+     - '../../deps/zpp_lib/configs/prj.conf'
+     - '../../deps/zpp_lib/configs/prj_log.conf'
+     - '../../deps/zpp_lib/configs/prj_debug.conf'
+     - '../../deps/zpp_lib/configs/prj_test.conf'
+    files:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/boards/qemu/x86/qemu_x86_defconfig'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test/prj.conf'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test/../../deps/zpp_lib/configs/prj.conf'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test/../../deps/zpp_lib/configs/prj_log.conf'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test/../../deps/zpp_lib/configs/prj_debug.conf'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test/../../deps/zpp_lib/configs/prj_test.conf'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_1/zephyr/misc/generated/extra_kconfig_options.conf'
+    user-files:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/gasile/zephyr-sdk-1.0.1'
+  zephyr:
+    version: '4.4.0'
+    zephyr-base: '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr'
+version: '0.1.0'

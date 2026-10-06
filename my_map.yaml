@@ -1,0 +1,12 @@
+- connected: true
+  id: '001050072722'
+  platform: nrf5340dk/nrf5340/cpuapp
+  product: J-Link
+  runner: nrfutil
+  serial: /dev/ttyACM0
+- connected: true
+  id: '001050072722'
+  platform: unknown
+  product: J-Link
+  runner: jlink
+  serial: /dev/ttyACM1

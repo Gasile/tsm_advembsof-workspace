@@ -1,0 +1,24 @@
+{
+  "nrfutil_device_version": "2.21.0",
+  "family": "NRF53_FAMILY",
+  "operations": [
+    {
+      "core": "NRFDL_DEVICE_CORE_APPLICATION",
+      "operation": {
+        "chip_erase_mode": "ERASE_RANGES_TOUCHED_BY_FIRMWARE",
+        "firmware": {
+          "file": "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/semaphore/zpp_lib.zpp_rtos.semaphore/zephyr/zephyr.hex"
+        },
+        "type": "program",
+        "verify": "VERIFY_READ"
+      }
+    },
+    {
+      "core": "NRFDL_DEVICE_CORE_APPLICATION",
+      "operation": {
+        "option": "RESET_PIN",
+        "type": "reset"
+      }
+    }
+  ]
+}

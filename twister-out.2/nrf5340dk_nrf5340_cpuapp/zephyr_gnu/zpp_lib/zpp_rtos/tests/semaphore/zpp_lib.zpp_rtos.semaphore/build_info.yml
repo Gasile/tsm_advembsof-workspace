@@ -1,0 +1,55 @@
+cmake:
+  application:
+    configuration-dir: '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore'
+    source-dir: '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore'
+  board:
+    name: 'nrf5340dk'
+    path:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/boards/nordic/nrf5340dk'
+    qualifiers: 'nrf5340/cpuapp'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/bindings'
+    files:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/boards/nordic/nrf5340dk/nrf5340dk_nrf5340_cpuapp.dts'
+     - '../../../configs/boards/nrf5340dk_nrf5340_cpuapp.overlay'
+    include-dirs:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/include'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/include/zephyr'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/common'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/vendor'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/rx'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/x86'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/xtensa'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/sparc'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/riscv'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/posix'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/arm64'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/arm'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts/arc'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/dts'
+    user-files:
+     - '../../../configs/boards/nrf5340dk_nrf5340_cpuapp.overlay'
+  kconfig:
+    extra-user-files:
+     - '../../../configs/prj.conf'
+     - '../../../configs/prj_test.conf'
+    files:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/boards/nordic/nrf5340dk/nrf5340dk_nrf5340_cpuapp_defconfig'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore/prj.conf'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore/../../../configs/prj.conf'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore/../../../configs/prj_test.conf'
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/zpp_lib/zpp_rtos/tests/semaphore/zpp_lib.zpp_rtos.semaphore/zephyr/misc/generated/extra_kconfig_options.conf'
+    user-files:
+     - '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zpp_rtos/tests/semaphore/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/gasile/zephyr-sdk-1.0.1'
+  vendor-specific:
+    nordic:
+      svdfile: '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/modules/hal/nordic/nrfx/bsp/stable/mdk/nrf5340_application.svd'
+  zephyr:
+    version: '4.4.0'
+    zephyr-base: '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr'
+version: '0.1.0'

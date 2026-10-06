@@ -1,0 +1,19 @@
+SeaBIOS (version zephyr-v1.16.3-2-0-gf8da0cc-zephyr)
+Booting from ROM..
+Running TESTSUITE always_succeed
+===================================================================
+START - test_equality
+ PASS - test_equality in 0.001 seconds
+===================================================================
+TESTSUITE always_succeed succeeded
+
+------ TESTSUITE SUMMARY START ------
+
+SUITE PASS - 100.00% [always_succeed]: pass = 1, fail = 0, skip = 0, total = 1 duration = 0.001 seconds
+ - PASS - [always_succeed.test_equality] duration = 0.001 seconds
+
+------ TESTSUITE SUMMARY END ------
+
+===================================================================
+RunID: 0e9d791cbf357fb413a1106c463ebae1
+PROJECT EXECUTION SUCCESSFUL

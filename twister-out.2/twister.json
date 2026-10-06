@@ -1,0 +1,108 @@
+{
+    "environment":{
+        "os":"Linux",
+        "zephyr_version":"v4.4.0",
+        "toolchain":"zephyr/gnu",
+        "commit_date":"2026-04-14T14:45:49-05:00",
+        "run_date":"2026-10-06T13:59:15+00:00",
+        "options":{
+            "help":null,
+            "zephyr_base":null,
+            "quiet":0,
+            "command":"twister",
+            "testsuite_root":[
+                "deps/zpp_lib/zpp_rtos"
+            ],
+            "device_testing":true,
+            "device_serial":[
+                "/dev/ttyACM0"
+            ],
+            "platform":[
+                "nrf5340dk/nrf5340/cpuapp"
+            ]
+        }
+    },
+    "testsuites":[
+        {
+            "name":"zpp_lib.zpp_rtos.mutex",
+            "arch":"arm",
+            "platform":"nrf5340dk/nrf5340/cpuapp",
+            "path":"../zpp_lib/zpp_rtos/tests/mutex",
+            "run_id":"b4c39211903f6e4d3be907b77d761189",
+            "runnable":true,
+            "retries":0,
+            "toolchain":"zephyr/gnu",
+            "status":"failed",
+            "log":"",
+            "reason":"Unknown Error",
+            "execution_time":"63.29",
+            "build_time":"30.61",
+            "testcases":[
+                {
+                    "identifier":"zpp_lib.zpp_rtos.mutex.zpp_mutex.mutex_lock_unlock",
+                    "execution_time":"63.29",
+                    "status":"blocked",
+                    "reason":"Unknown Error"
+                }
+            ]
+        },
+        {
+            "name":"zpp_lib.zpp_rtos.semaphore",
+            "arch":"arm",
+            "platform":"nrf5340dk/nrf5340/cpuapp",
+            "path":"../zpp_lib/zpp_rtos/tests/semaphore",
+            "run_id":"a16b7f9b4e16dd1feff40fb598800fe7",
+            "runnable":true,
+            "retries":0,
+            "toolchain":"zephyr/gnu",
+            "status":"failed",
+            "log":"",
+            "reason":"Unknown Error",
+            "execution_time":"63.30",
+            "build_time":"31.85",
+            "testcases":[
+                {
+                    "identifier":"zpp_lib.zpp_rtos.semaphore.zpp_semaphore.semaphore_release_acquire",
+                    "execution_time":"63.30",
+                    "status":"blocked",
+                    "reason":"Unknown Error"
+                }
+            ]
+        },
+        {
+            "name":"zpp_lib.zpp_rtos.thread",
+            "arch":"arm",
+            "platform":"nrf5340dk/nrf5340/cpuapp",
+            "path":"../zpp_lib/zpp_rtos/tests/thread",
+            "run_id":"e134b78633d008e61e086be13da82ca5",
+            "runnable":true,
+            "retries":0,
+            "toolchain":"zephyr/gnu",
+            "status":"failed",
+            "log":"",
+            "reason":"Unknown Error",
+            "execution_time":"123.53",
+            "build_time":"31.86",
+            "testcases":[
+                {
+                    "identifier":"zpp_lib.zpp_rtos.thread.zpp_thread.round_robin",
+                    "execution_time":"0.00",
+                    "status":"blocked",
+                    "reason":"Unknown Error"
+                },
+                {
+                    "identifier":"zpp_lib.zpp_rtos.thread.zpp_thread.sleep_secondary_thread",
+                    "execution_time":"0.00",
+                    "status":"blocked",
+                    "reason":"Unknown Error"
+                },
+                {
+                    "identifier":"zpp_lib.zpp_rtos.thread.zpp_thread.sleep_main",
+                    "execution_time":"0.00",
+                    "status":"blocked",
+                    "reason":"Unknown Error"
+                }
+            ]
+        }
+    ]
+}

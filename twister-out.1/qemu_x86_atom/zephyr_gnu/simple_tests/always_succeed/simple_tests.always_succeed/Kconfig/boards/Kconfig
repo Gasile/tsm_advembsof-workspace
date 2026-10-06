@@ -1,0 +1,2 @@
+# Load Zephyr board Kconfig descriptions.
+osource "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/boards/qemu/x86/Kconfig"

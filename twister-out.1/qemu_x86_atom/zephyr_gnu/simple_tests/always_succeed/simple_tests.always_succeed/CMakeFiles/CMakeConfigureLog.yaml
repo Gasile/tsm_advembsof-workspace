@@ -1,0 +1,3144 @@
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:28 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    name: "ZephyrBuildConfiguration"
+    configs:
+      -
+        filename: "ZephyrBuild.cps"
+        kind: "cps"
+      -
+        filename: "zephyrbuild.cps"
+        kind: "cps"
+      -
+        filename: "ZephyrBuildConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrbuild-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrBuild"
+      search_paths:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/../*"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/modules/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/modules/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/modules/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/modules/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/modules/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/modules/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/utilities/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/utilities/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/utilities/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/utilities/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/utilities/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/utilities/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zpp_lib/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:41 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    name: "ZephyrAppConfiguration"
+    configs:
+      -
+        filename: "ZephyrApp.cps"
+        kind: "cps"
+      -
+        filename: "zephyrapp.cps"
+        kind: "cps"
+      -
+        filename: "ZephyrAppConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrapp-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrApp"
+      search_paths:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/lib/cps/ZephyrApp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/lib/cps/zephyrapp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/share/cps/ZephyrApp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/share/cps/zephyrapp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed/lib/cps/ZephyrApp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed/lib/cps/zephyrapp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed/share/cps/ZephyrApp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed/share/cps/zephyrapp.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/ccache.cmake:10 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CCACHE_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/ccache"
+      - "/opt/or1k_toolchain/bin/ccache"
+      - "/opt/oss-cad-suite/bin/ccache"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache"
+      - "/home/gasile/flutter/bin/ccache"
+      - "/usr/local/bin/ccache"
+    found: "/usr/bin/ccache"
+    search_context:
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindZephyr-sdk.cmake:81 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindHostTools.cmake:51 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    name: "Zephyr-sdk"
+    components:
+      -
+        name: "LOAD"
+        required: false
+        found: false
+    configs:
+      -
+        filename: "Zephyr-sdk.cps"
+        kind: "cps"
+      -
+        filename: "zephyr-sdk.cps"
+        kind: "cps"
+      -
+        filename: "Zephyr-sdkConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-sdk-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.0"
+      version_complete: "1.0"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/gasile/zephyr-sdk-1.0.1"
+      names:
+        - "Zephyr-sdk"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/lib/cps/Zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/lib/cps/zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/share/cps/Zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/share/cps/zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/zephyr-sdk-1.0.1/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/zephyr-sdk-1.0.1/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/gasile/zephyr-sdk-1.0.1/cmake/Zephyr-sdkConfig.cmake"
+      mode: "config"
+      version: "1.0.1"
+    search_context:
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindHostTools.cmake:54 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "GPERF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gperf"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/gperf"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/gperf"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/gperf"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/gperf"
+      - "/opt/or1k_toolchain/bin/gperf"
+      - "/opt/oss-cad-suite/bin/gperf"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gperf"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gperf"
+      - "/home/gasile/flutter/bin/gperf"
+      - "/usr/local/bin/gperf"
+    found: "/usr/bin/gperf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindHostTools.cmake:57 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "OPENOCD"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openocd"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/openocd"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindHostTools.cmake:60 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "BOSSAC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "bossac"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/bossac"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindHostTools.cmake:65 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "IMGTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "imgtool.py"
+      - "imgtool"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/scripts/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/imgtool.py"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/imgtool"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/imgtool.py"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/imgtool"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/imgtool.py"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/imgtool"
+      - "/scripts/imgtool.py"
+      - "/scripts/imgtool"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/imgtool.py"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/imgtool"
+      - "/opt/or1k_toolchain/bin/imgtool.py"
+      - "/opt/or1k_toolchain/bin/imgtool"
+      - "/opt/oss-cad-suite/bin/imgtool.py"
+      - "/opt/oss-cad-suite/bin/imgtool"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/imgtool.py"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/imgtool"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/imgtool.py"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/imgtool"
+      - "/home/gasile/flutter/bin/imgtool.py"
+      - "/home/gasile/flutter/bin/imgtool"
+      - "/usr/local/bin/imgtool.py"
+      - "/usr/local/bin/imgtool"
+      - "/usr/bin/imgtool.py"
+      - "/usr/bin/imgtool"
+      - "/usr/local/sbin/imgtool.py"
+      - "/usr/local/sbin/imgtool"
+      - "/usr/bin/site_perl/imgtool.py"
+      - "/usr/bin/site_perl/imgtool"
+      - "/usr/bin/vendor_perl/imgtool.py"
+      - "/usr/bin/vendor_perl/imgtool"
+      - "/usr/bin/core_perl/imgtool.py"
+      - "/usr/bin/core_perl/imgtool"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/imgtool.py"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/imgtool"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindHostTools.cmake:68 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "PTY_INTERFACE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "winpty"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/winpty"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/winpty"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/winpty"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/winpty"
+      - "/opt/or1k_toolchain/bin/winpty"
+      - "/opt/oss-cad-suite/bin/winpty"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/winpty"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/winpty"
+      - "/home/gasile/flutter/bin/winpty"
+      - "/usr/local/bin/winpty"
+      - "/usr/bin/winpty"
+      - "/usr/local/sbin/winpty"
+      - "/usr/bin/site_perl/winpty"
+      - "/usr/bin/vendor_perl/winpty"
+      - "/usr/bin/core_perl/winpty"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/winpty"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/compiler/gcc/generic.cmake:5 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindHostTools.cmake:125 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/compiler/gcc/generic.cmake:6 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindHostTools.cmake:125 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_GCOV"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcov"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindDtc.cmake:19 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/dts.cmake:10 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "DTC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dtc"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/dtc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/compiler/gcc/target.cmake:26 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-g++"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-g++"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/bintools/gnu/target.cmake:5 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-objcopy"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-objcopy"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/bintools/gnu/target.cmake:6 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-objdump"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-objdump"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/bintools/gnu/target.cmake:7 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_AS"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-as"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-as"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/bintools/gnu/target.cmake:12 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-ar"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/bintools/gnu/target.cmake:13 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-ranlib"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/bintools/gnu/target.cmake:15 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-readelf"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-readelf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/bintools/gnu/target.cmake:16 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-nm"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-nm"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/bintools/gnu/target.cmake:17 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-strip"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-strip"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/bintools/gnu/target.cmake:19 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/FindTargetTools.cmake:106 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_GDB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gdb-py"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gdb-py"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/bin/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/uname"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/uname"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/uname"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/uname"
+      - "/opt/or1k_toolchain/bin/uname"
+      - "/opt/oss-cad-suite/bin/uname"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/home/gasile/flutter/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:213 (message)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      The target system is: Generic - 4.4.0 - x86
+      The host system is: Linux - 7.2.7-arch1-1 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/ninja-build"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/ninja"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/samu"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/ninja-build"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/ninja"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/samu"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/ninja-build"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/ninja"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/samu"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/ninja-build"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/ninja"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/samu"
+      - "/opt/or1k_toolchain/bin/ninja-build"
+      - "/opt/or1k_toolchain/bin/ninja"
+      - "/opt/or1k_toolchain/bin/samu"
+      - "/opt/oss-cad-suite/bin/ninja-build"
+      - "/opt/oss-cad-suite/bin/ninja"
+      - "/opt/oss-cad-suite/bin/samu"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/samu"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/samu"
+      - "/home/gasile/flutter/bin/ninja-build"
+      - "/home/gasile/flutter/bin/ninja"
+      - "/home/gasile/flutter/bin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc 
+      Build flags: -m32
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/4.4.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-zephyr-elf-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-dlltool"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-dlltool"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-dlltool"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-dlltool"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-dlltool"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-dlltool"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-dlltool"
+      - "/usr/local/bin/x86_64-zephyr-elf-dlltool"
+      - "/usr/bin/x86_64-zephyr-elf-dlltool"
+      - "/usr/local/sbin/x86_64-zephyr-elf-dlltool"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-dlltool"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-dlltool"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-dlltool"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-dlltool"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/dlltool"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/dlltool"
+      - "/opt/or1k_toolchain/bin/dlltool"
+      - "/opt/oss-cad-suite/bin/dlltool"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/home/gasile/flutter/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/dlltool"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-zephyr-elf-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-addr2line"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-zephyr-elf-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-tapi"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-tapi"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-tapi"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-tapi"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-tapi"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-tapi"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-tapi"
+      - "/usr/local/bin/x86_64-zephyr-elf-tapi"
+      - "/usr/bin/x86_64-zephyr-elf-tapi"
+      - "/usr/local/sbin/x86_64-zephyr-elf-tapi"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-tapi"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-tapi"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-tapi"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-tapi"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/tapi"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/tapi"
+      - "/opt/or1k_toolchain/bin/tapi"
+      - "/opt/oss-cad-suite/bin/tapi"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/home/gasile/flutter/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/tapi"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-zephyr-elf-gcc-ar-14.3"
+      - "x86_64-zephyr-elf-gcc-ar-14"
+      - "x86_64-zephyr-elf-gcc-ar14"
+      - "x86_64-zephyr-elf-gcc-ar"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ar14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ar14"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ar14"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar14"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "x86_64-zephyr-elf-gcc-ranlib-14"
+      - "x86_64-zephyr-elf-gcc-ranlib14"
+      - "x86_64-zephyr-elf-gcc-ranlib"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib14"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-g++ 
+      Build flags: -m32
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/4.4.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-zephyr-elf-gcc-ar-14.3"
+      - "x86_64-zephyr-elf-gcc-ar-14"
+      - "x86_64-zephyr-elf-gcc-ar14"
+      - "x86_64-zephyr-elf-gcc-ar"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.3"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ar-14"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ar14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ar14"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ar14"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ar14"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar14"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "x86_64-zephyr-elf-gcc-ranlib-14"
+      - "x86_64-zephyr-elf-gcc-ranlib14"
+      - "x86_64-zephyr-elf-gcc-ranlib"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.3"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ranlib14"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib14"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1328 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      x86_64-zephyr-elf-gcc (Zephyr SDK 1.0.1) 14.3.0
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-zephyr-elf-gcc-ar-"
+      - "x86_64-zephyr-elf-gcc-ar-"
+      - "x86_64-zephyr-elf-gcc-ar"
+      - "x86_64-zephyr-elf-gcc-ar"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/bin/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-"
+      - "/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ar-"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ar-"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-"
+      - "/bin/x86_64-zephyr-elf-gcc-ar-"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-zephyr-elf-gcc-ranlib-"
+      - "x86_64-zephyr-elf-gcc-ranlib-"
+      - "x86_64-zephyr-elf-gcc-ranlib"
+      - "x86_64-zephyr-elf-gcc-ranlib"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/bin/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/opt/or1k_toolchain/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/opt/oss-cad-suite/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/flutter/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/local/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/bin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/local/sbin/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/bin/site_perl/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/bin/vendor_perl/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/usr/bin/core_perl/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-"
+      - "/bin/x86_64-zephyr-elf-gcc-ranlib-"
+    found: "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/extensions.cmake:2421 (check_c_compiler_flag)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/extensions.cmake:1199 (check_compiler_flag)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/extensions.cmake:2446 (zephyr_check_compiler_flag)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/extensions.cmake:2436 (target_cc_option_fallback)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/extensions.cmake:156 (target_cc_option)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/CMakeLists.txt:634 (zephyr_cc_option)"
+    directories:
+      source: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/CMakeScratch/TryCompile-exglOF"
+      binary: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/CMakeScratch/TryCompile-exglOF"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map__home_gasile_Documents_MASTER_AdvEmbSof_tsm_advembsof_workspace_simple_tests_always_succeed_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___home_gasile_zephyr_sdk_1_0_1_gnu_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_14_3_0_include___isystem___home_gasile_zephyr_sdk_1_0_1_gnu_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/CMakeScratch/TryCompile-exglOF'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_414dd
+        [1/2] /home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fmacro_prefix_map__home_gasile_Documents_MASTER_AdvEmbSof_tsm_advembsof_workspace_simple_tests_always_succeed_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___home_gasile_zephyr_sdk_1_0_1_gnu_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_14_3_0_include___isystem___home_gasile_zephyr_sdk_1_0_1_gnu_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/include" -isystem "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/include" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fmacro-prefix-map=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed=CMAKE_SOURCE_DIR -o CMakeFiles/cmTC_414dd.dir/src.c.obj -c /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/CMakeScratch/TryCompile-exglOF/src.c
+        [2/2] : && /home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/include" -isystem "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/include" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_414dd.dir/src.c.obj -o cmTC_414dd   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/extensions.cmake:2423 (check_cxx_compiler_flag)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/extensions.cmake:1199 (check_compiler_flag)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/extensions.cmake:2446 (zephyr_check_compiler_flag)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/extensions.cmake:2436 (target_cc_option_fallback)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules/extensions.cmake:156 (target_cc_option)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/CMakeLists.txt:634 (zephyr_cc_option)"
+    directories:
+      source: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/CMakeScratch/TryCompile-DK4Kc7"
+      binary: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/CMakeScratch/TryCompile-DK4Kc7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-m32 "
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map__home_gasile_Documents_MASTER_AdvEmbSof_tsm_advembsof_workspace_simple_tests_always_succeed_CMAKE_SOURCE_DIR_CXX__nostartfiles__nostdlib__isystem___home_gasile_zephyr_sdk_1_0_1_gnu_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_14_3_0_include___isystem___home_gasile_zephyr_sdk_1_0_1_gnu_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/CMakeScratch/TryCompile-DK4Kc7'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_52db8
+        [1/2] /home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-g++ -Dcheck_fmacro_prefix_map__home_gasile_Documents_MASTER_AdvEmbSof_tsm_advembsof_workspace_simple_tests_always_succeed_CMAKE_SOURCE_DIR_CXX__nostartfiles__nostdlib__isystem___home_gasile_zephyr_sdk_1_0_1_gnu_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_14_3_0_include___isystem___home_gasile_zephyr_sdk_1_0_1_gnu_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/include" -isystem "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/include" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fmacro-prefix-map=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed=CMAKE_SOURCE_DIR -o CMakeFiles/cmTC_52db8.dir/src.cxx.obj -c /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/CMakeScratch/TryCompile-DK4Kc7/src.cxx
+        [2/2] : && /home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-g++ -m32  -nostartfiles -nostdlib -isystem "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/include" -isystem "/home/gasile/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/include" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_52db8.dir/src.cxx.obj -o cmTC_52db8   && :
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/kobj.cmake:3 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/CMakeLists.txt:985 (include)"
+    mode: "program"
+    variable: "GEN_KOBJECT_LIST"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gen_kobject_list"
+      - "gen_kobject_list.py"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/bin/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/scripts/build/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/gen_kobject_list"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/gen_kobject_list"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/gen_kobject_list"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/gen_kobject_list"
+      - "/opt/or1k_toolchain/bin/gen_kobject_list"
+      - "/opt/oss-cad-suite/bin/gen_kobject_list"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gen_kobject_list"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gen_kobject_list"
+      - "/home/gasile/flutter/bin/gen_kobject_list"
+      - "/usr/local/bin/gen_kobject_list"
+      - "/usr/bin/gen_kobject_list"
+      - "/usr/local/sbin/gen_kobject_list"
+      - "/usr/bin/site_perl/gen_kobject_list"
+      - "/usr/bin/vendor_perl/gen_kobject_list"
+      - "/usr/bin/core_perl/gen_kobject_list"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/gen_kobject_list"
+      - "/bin/gen_kobject_list"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/scripts/build/gen_kobject_list"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/gen_kobject_list.py"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/gen_kobject_list.py"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/gen_kobject_list.py"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/gen_kobject_list.py"
+      - "/opt/or1k_toolchain/bin/gen_kobject_list.py"
+      - "/opt/oss-cad-suite/bin/gen_kobject_list.py"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gen_kobject_list.py"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gen_kobject_list.py"
+      - "/home/gasile/flutter/bin/gen_kobject_list.py"
+      - "/usr/local/bin/gen_kobject_list.py"
+      - "/usr/bin/gen_kobject_list.py"
+      - "/usr/local/sbin/gen_kobject_list.py"
+      - "/usr/bin/site_perl/gen_kobject_list.py"
+      - "/usr/bin/vendor_perl/gen_kobject_list.py"
+      - "/usr/bin/core_perl/gen_kobject_list.py"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/gen_kobject_list.py"
+      - "/bin/gen_kobject_list.py"
+    found: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/scripts/build/gen_kobject_list.py"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/emu/qemu.cmake:28 (find_program)"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/CMakeLists.txt:2320 (include)"
+    mode: "program"
+    variable: "QEMU"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "qemu-system-i386"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/bin/"
+    found: "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/qemu-system-i386"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/reports/CMakeLists.txt:115 (find_program)"
+    mode: "program"
+    variable: "PUNCOVER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "puncover"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/bin/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/puncover"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/puncover"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/puncover"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/puncover"
+      - "/opt/or1k_toolchain/bin/puncover"
+      - "/opt/oss-cad-suite/bin/puncover"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/puncover"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/puncover"
+      - "/home/gasile/flutter/bin/puncover"
+      - "/usr/local/bin/puncover"
+      - "/usr/bin/puncover"
+      - "/usr/local/sbin/puncover"
+      - "/usr/bin/site_perl/puncover"
+      - "/usr/bin/vendor_perl/puncover"
+      - "/usr/bin/core_perl/puncover"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/puncover"
+      - "/bin/puncover"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/reports/CMakeLists.txt:142 (find_program)"
+    mode: "program"
+    variable: "PAHOLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pahole"
+    candidate_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/"
+      - "/opt/or1k_toolchain/bin/"
+      - "/opt/oss-cad-suite/bin/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/gasile/flutter/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/bin/"
+    searched_directories:
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/pahole"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/pahole"
+      - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/pahole"
+      - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/pahole"
+      - "/opt/or1k_toolchain/bin/pahole"
+      - "/opt/oss-cad-suite/bin/pahole"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/pahole"
+      - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/pahole"
+      - "/home/gasile/flutter/bin/pahole"
+      - "/usr/local/bin/pahole"
+    found: "/usr/bin/pahole"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:2 (find_package)"
+    name: "Zephyr"
+    configs:
+      -
+        filename: "Zephyr.cps"
+        kind: "cps"
+      -
+        filename: "zephyr.cps"
+        kind: "cps"
+      -
+        filename: "ZephyrConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr"
+      names:
+        - "Zephyr"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/lib/cps/Zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/lib/cps/zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/share/cps/Zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/CMakeFiles/pkgRedirects/share/cps/zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/lib/cps/Zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/lib/cps/zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/cps/Zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/cps/zephyr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyrunittest-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyrunittest-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyrunittest-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyrunittest-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+      mode: "config"
+      version: "4.4.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/gasile/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin"
+        - "/opt/or1k_toolchain/bin"
+        - "/opt/oss-cad-suite/bin"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/gasile/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/gasile/flutter/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/gasile/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+...

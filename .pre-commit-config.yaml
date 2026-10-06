@@ -1,4 +1,4 @@
-exclude: ^(welcome/|path_finder/|semaphores/|car_system/)
+exclude: ^(welcome/|path_finder/|semaphores/|car_system/|twister-out.*/|build.*/)
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v6.0.0
@@ -46,3 +46,17 @@ repos:
     pass_filenames: true
     require_serial: true
     files: ^(sanitize)/.*\.(c|cc|cpp|cxx)$
+  - id: clang-tidy-always-succeed
+    name: clang-tidy-always-succeed
+    entry: python deps/zpp_lib/scripts/run_clang_tidy.py --app simple_tests/always_succeed --board "nrf5340dk/nrf5340/cpuapp" --configs "test+log+debug" --wd "." --header-root simple_tests/always_succeed
+    language: system
+    pass_filenames: true
+    require_serial: true
+    files: ^(simple_tests/always_succeed)/.*\.(c|cc|cpp|cxx)$
+  - id: clang-tidy-ptr-test
+    name: clang-tidy-ptr-test
+    entry: python deps/zpp_lib/scripts/run_clang_tidy.py --app simple_tests/ptr_test --board "nrf5340dk/nrf5340/cpuapp" --configs "test+log+debug" --wd "." --header-root simple_tests/ptr_test
+    language: system
+    pass_filenames: true
+    require_serial: true
+    files: ^(simple_tests/ptr_test)/.*\.(c|cc|cpp|cxx)$

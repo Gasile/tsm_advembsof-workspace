@@ -26,3 +26,19 @@ applications:
       - shell+san
       - shell+debug
     configs_dir: ../deps/zpp_lib/configs
+
+  - app: simple_tests/always_succeed
+    boards:
+      - board: nrf5340dk/nrf5340/cpuapp
+      - board: qemu_x86
+    configs:
+      - test+log+debug
+    configs_dir: ../../deps/zpp_lib/configs
+  
+  - app: simple_tests/ptr_test
+    boards:
+      - board: nrf5340dk/nrf5340/cpuapp
+      - board: qemu_x86
+    configs:
+      - test+log+debug
+    configs_dir: ../../deps/zpp_lib/configs

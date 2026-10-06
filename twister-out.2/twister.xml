@@ -1,0 +1,16 @@
+<testsuites>
+	<testsuite name="nrf5340dk/nrf5340/cpuapp" timestamp="2026-10-06T15:59:16.823631" time="250.12" tests="3" failures="3" errors="0" skipped="0">
+		<properties>
+			<property name="version" value="v4.4.0" />
+		</properties>
+		<testcase classname="nrf5340dk/nrf5340/cpuapp:zpp_lib.zpp_rtos.mutex" name="zpp_lib.zpp_rtos.mutex" time="63.29">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+		<testcase classname="nrf5340dk/nrf5340/cpuapp:zpp_lib.zpp_rtos.semaphore" name="zpp_lib.zpp_rtos.semaphore" time="63.30">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+		<testcase classname="nrf5340dk/nrf5340/cpuapp:zpp_lib.zpp_rtos.thread" name="zpp_lib.zpp_rtos.thread" time="123.53">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+	</testsuite>
+</testsuites>

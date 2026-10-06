@@ -1,0 +1,92 @@
+{
+    "environment":{
+        "os":"Linux",
+        "zephyr_version":"v4.4.0",
+        "toolchain":"zephyr/gnu",
+        "commit_date":"2026-04-14T14:45:49-05:00",
+        "run_date":"2026-10-06T14:08:18+00:00",
+        "options":{
+            "help":null,
+            "zephyr_base":null,
+            "quiet":0,
+            "command":"twister",
+            "testsuite_root":[
+                "simple_tests"
+            ],
+            "device_testing":true,
+            "hardware_map":"my_map.yaml",
+            "platform":[
+                "nrf5340dk/nrf5340/cpuapp"
+            ],
+            "short_build_path":true
+        }
+    },
+    "testsuites":[
+        {
+            "name":"simple_tests.always_succeed",
+            "arch":"arm",
+            "platform":"nrf5340dk/nrf5340/cpuapp",
+            "path":"../../simple_tests/always_succeed",
+            "run_id":"be6f233299c31c3aa9dd7280069d0b9e",
+            "runnable":true,
+            "retries":0,
+            "toolchain":"zephyr/gnu",
+            "dut":"001050072722",
+            "status":"failed",
+            "log":"",
+            "reason":"Unknown Error",
+            "execution_time":"64.36",
+            "build_time":"25.27",
+            "testcases":[
+                {
+                    "identifier":"simple_tests.always_succeed.always_succeed.equality",
+                    "execution_time":"64.36",
+                    "status":"blocked",
+                    "reason":"Unknown Error"
+                }
+            ]
+        },
+        {
+            "name":"simple_tests.ptr_test",
+            "arch":"arm",
+            "platform":"nrf5340dk/nrf5340/cpuapp",
+            "path":"../../simple_tests/ptr_test",
+            "run_id":"194e3a6ca26ef63145fb6141d6ad1392",
+            "runnable":true,
+            "retries":0,
+            "toolchain":"zephyr/gnu",
+            "dut":"001050072722",
+            "status":"failed",
+            "log":"",
+            "reason":"Unknown Error",
+            "execution_time":"64.42",
+            "build_time":"25.13",
+            "testcases":[
+                {
+                    "identifier":"simple_tests.ptr_test.ptr_test.raw_pointers",
+                    "execution_time":"0.00",
+                    "status":"blocked",
+                    "reason":"Unknown Error"
+                },
+                {
+                    "identifier":"simple_tests.ptr_test.ptr_test.unique_ptr",
+                    "execution_time":"0.00",
+                    "status":"blocked",
+                    "reason":"Unknown Error"
+                },
+                {
+                    "identifier":"simple_tests.ptr_test.ptr_test.instance_sharing",
+                    "execution_time":"0.00",
+                    "status":"blocked",
+                    "reason":"Unknown Error"
+                },
+                {
+                    "identifier":"simple_tests.ptr_test.ptr_test.single_sharedptr_lifetime",
+                    "execution_time":"0.00",
+                    "status":"blocked",
+                    "reason":"Unknown Error"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+<testsuites>
+	<testsuite name="simple_tests.always_succeed" time="64.36" timestamp="2026-10-06T16:08:19.953402" tests="1" failures="1" errors="0" skipped="0">
+		<properties>
+			<property name="version" value="v4.4.0" />
+			<property name="platform" value="nrf5340dk/nrf5340/cpuapp" />
+			<property name="architecture" value="arm" />
+		</properties>
+		<testcase classname="simple_tests.always_succeed" name="simple_tests.always_succeed.always_succeed.equality" time="64.36">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+	</testsuite>
+	<testsuite name="simple_tests.ptr_test" time="64.42" timestamp="2026-10-06T16:08:19.953402" tests="4" failures="4" errors="0" skipped="0">
+		<properties>
+			<property name="version" value="v4.4.0" />
+			<property name="platform" value="nrf5340dk/nrf5340/cpuapp" />
+			<property name="architecture" value="arm" />
+		</properties>
+		<testcase classname="simple_tests.ptr_test" name="simple_tests.ptr_test.ptr_test.raw_pointers" time="0.00">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+		<testcase classname="simple_tests.ptr_test" name="simple_tests.ptr_test.ptr_test.unique_ptr" time="0.00">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+		<testcase classname="simple_tests.ptr_test" name="simple_tests.ptr_test.ptr_test.instance_sharing" time="0.00">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+		<testcase classname="simple_tests.ptr_test" name="simple_tests.ptr_test.ptr_test.single_sharedptr_lifetime" time="0.00">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+	</testsuite>
+</testsuites>

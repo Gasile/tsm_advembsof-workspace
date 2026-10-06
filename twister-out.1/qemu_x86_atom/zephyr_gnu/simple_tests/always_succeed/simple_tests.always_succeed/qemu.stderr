@@ -1,0 +1,2 @@
+ninja: warning: Ignoring jobserver: Pipe-based protocol is not supported! [ -j24 --jobserver-auth=7,8]
+qemu-system-i386: terminating on signal 15 from pid 279718 (/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/python3.12)

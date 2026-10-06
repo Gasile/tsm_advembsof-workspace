@@ -1,0 +1,6 @@
+tests:
+  - root: simple_tests
+    tags: ["cpp"]
+    boards:
+      - board: nrf5340dk/nrf5340/cpuapp
+      - board: qemu_x86

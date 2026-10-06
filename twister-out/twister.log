@@ -1,0 +1,113 @@
+2026-10-06 16:08:18,009 - twister - INFO - Using Ninja..
+2026-10-06 16:08:18,088 - twister - INFO - Zephyr version: v4.4.0
+2026-10-06 16:08:18,092 - twister - DEBUG - Running cmake script /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 16:08:18,092 - twister - DEBUG - Calling cmake: /usr/bin/cmake -DFORMAT=json -P /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 16:08:18,395 - twister - DEBUG - Finished running /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 16:08:18,396 - twister - INFO - Using 'zephyr/gnu' toolchain variant.
+2026-10-06 16:08:19,946 - twister - DEBUG - Reading testsuite configuration files under /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests...
+2026-10-06 16:08:19,946 - twister - DEBUG - Found possible testsuite in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed
+2026-10-06 16:08:19,950 - twister - DEBUG - Found possible testsuite in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test
+2026-10-06 16:08:19,951 - twister - DEBUG - No duplicates found.
+2026-10-06 16:08:19,952 - twister - DEBUG -  platform filter: ['nrf5340dk/nrf5340/cpuapp']
+2026-10-06 16:08:19,952 - twister - DEBUG - platform_pattern: []
+2026-10-06 16:08:19,952 - twister - DEBUG -    vendor filter: []
+2026-10-06 16:08:19,952 - twister - DEBUG -      arch_filter: None
+2026-10-06 16:08:19,952 - twister - DEBUG -       tag_filter: None
+2026-10-06 16:08:19,952 - twister - DEBUG -      exclude_tag: None
+2026-10-06 16:08:19,952 - twister - DEBUG - Checking platform filter: ['nrf5340dk/nrf5340/cpuapp']
+2026-10-06 16:08:19,952 - twister - INFO - Building initial testsuite list...
+2026-10-06 16:08:19,953 - twister - INFO - Built testsuite list in 0.00 seconds
+2026-10-06 16:08:19,953 - twister - INFO - Writing JSON report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/testplan.json
+2026-10-06 16:08:19,970 - twister - INFO - JOBS: 24
+2026-10-06 16:08:19,971 - twister - INFO - Adding tasks to the queue...
+2026-10-06 16:08:19,971 - twister - DEBUG - adding nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.always_succeed
+2026-10-06 16:08:19,972 - twister - DEBUG - adding nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.ptr_test
+2026-10-06 16:08:19,973 - twister - INFO - Added initial list of jobs to queue
+2026-10-06 16:08:19,980 - twister - DEBUG - Running cmake on /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test for nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:08:19,981 - twister - DEBUG - Calling cmake: /usr/bin/cmake -B/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_1 -DTC_RUNID=194e3a6ca26ef63145fb6141d6ad1392 -DTC_NAME=simple_tests.ptr_test -DCONFIG_COMPILER_WARNINGS_AS_ERRORS=y -DEXTRA_GEN_EDT_ARGS=--edtlib-Werror -GNinja -DPython3_EXECUTABLE=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/python3.12 -DZEPHYR_TOOLCHAIN_VARIANT=zephyr/gnu -S/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test '-DEXTRA_CONF_FILE=../../deps/zpp_lib/configs/prj.conf;../../deps/zpp_lib/configs/prj_log.conf;../../deps/zpp_lib/configs/prj_debug.conf;../../deps/zpp_lib/configs/prj_test.conf' -DBOARD=nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:08:19,981 - twister - DEBUG - Running cmake on /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed for nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:08:19,982 - twister - DEBUG - Calling cmake: /usr/bin/cmake -B/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0 -DTC_RUNID=be6f233299c31c3aa9dd7280069d0b9e -DTC_NAME=simple_tests.always_succeed -DCONFIG_COMPILER_WARNINGS_AS_ERRORS=y -DEXTRA_GEN_EDT_ARGS=--edtlib-Werror -GNinja -DPython3_EXECUTABLE=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/python3.12 -DZEPHYR_TOOLCHAIN_VARIANT=zephyr/gnu -S/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed '-DEXTRA_CONF_FILE=../../deps/zpp_lib/configs/prj.conf;../../deps/zpp_lib/configs/prj_log.conf;../../deps/zpp_lib/configs/prj_debug.conf;../../deps/zpp_lib/configs/prj_test.conf' -DBOARD=nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:08:20,017 - twister - DEBUG - Launched 24 jobs
+2026-10-06 16:08:28,817 - twister - DEBUG - Finished running cmake /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed for nrf5340dk/nrf5340/cpuapp in 8.83 seconds
+2026-10-06 16:08:28,818 - twister - DEBUG - Finished running cmake /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test for nrf5340dk/nrf5340/cpuapp in 8.83 seconds
+2026-10-06 16:08:28,821 - twister - DEBUG - build test: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.ptr_test
+2026-10-06 16:08:28,821 - twister - DEBUG - Building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test for nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:08:28,821 - twister - DEBUG - build test: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.always_succeed
+2026-10-06 16:08:28,821 - twister - DEBUG - Building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed for nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:08:28,822 - twister - DEBUG - Running /usr/bin/cmake --build /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_1
+2026-10-06 16:08:28,822 - twister - DEBUG - Running /usr/bin/cmake --build /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0
+2026-10-06 16:08:45,117 - twister - DEBUG - Finished building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test for nrf5340dk/nrf5340/cpuapp in 16.30 seconds
+2026-10-06 16:08:45,118 - twister - DEBUG - Determine test cases for test instance: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.ptr_test
+2026-10-06 16:08:45,118 - twister - DEBUG - Determine test cases for test suite: simple_tests.ptr_test
+2026-10-06 16:08:45,242 - twister - DEBUG - Test instance nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.ptr_test already has 1 testcase(s) known: [<TestCase simple_tests.ptr_test with None>]
+2026-10-06 16:08:45,242 - twister - DEBUG - Detected 4 Ztest case(s): [simple_tests.ptr_test.ptr_test.raw_pointers, simple_tests.ptr_test.ptr_test.unique_ptr, simple_tests.ptr_test.ptr_test.instance_sharing, simple_tests.ptr_test.ptr_test.single_sharedptr_lifetime] in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_1/zephyr/zephyr.elf
+2026-10-06 16:08:45,246 - twister - DEBUG - Retain DUT:nrf5340dk/nrf5340/cpuapp, Id:001050072722, counter:1, failures:0
+2026-10-06 16:08:45,247 - twister - DEBUG - run test: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.ptr_test
+2026-10-06 16:08:45,247 - twister - DEBUG - Reset instance status from 'passed' to None before run.
+2026-10-06 16:08:45,247 - twister - DEBUG - Using serial device /dev/ttyACM0 @ 115200 baud
+2026-10-06 16:08:45,248 - twister - DEBUG - Flash command: ['west', 'flash', '--no-rebuild', '-d', '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_1', '--runner', 'nrfutil', '--', '--dev-id', '001050072722']
+2026-10-06 16:08:45,255 - twister - DEBUG - Finished building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed for nrf5340dk/nrf5340/cpuapp in 16.43 seconds
+2026-10-06 16:08:45,255 - twister - DEBUG - Determine test cases for test instance: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.always_succeed
+2026-10-06 16:08:45,255 - twister - DEBUG - Determine test cases for test suite: simple_tests.always_succeed
+2026-10-06 16:08:45,377 - twister - DEBUG - Test instance nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.always_succeed already has 1 testcase(s) known: [<TestCase simple_tests.always_succeed with None>]
+2026-10-06 16:08:45,377 - twister - DEBUG - Detected 1 Ztest case(s): [simple_tests.always_succeed.always_succeed.equality] in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/zephyr/zephyr.elf
+2026-10-06 16:08:49,667 - twister - DEBUG - -- west flash: using runner nrfutil
+-- runners.nrfutil: reset after flashing requested
+-- runners.nrfutil: Flashing file: /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_1/zephyr/zephyr.hex
+-- runners.nrfutil: Connecting to probe
+-- runners.nrfutil: Erasing address ranges touched by firmware
+-- runners.nrfutil: Programming image
+-- runners.nrfutil: Verifying image
+-- runners.nrfutil: Reset
+-- runners.nrfutil: Board(s) with serial number(s) 1050072722 flashed successfully.
+
+2026-10-06 16:09:49,667 - twister - DEBUG - Timed out while monitoring serial output on nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:09:49,671 - twister - DEBUG - Expected suite names:[]
+2026-10-06 16:09:49,671 - twister - DEBUG - Detected suite names:[]
+2026-10-06 16:09:49,671 - twister - DEBUG - run status: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.ptr_test failed
+2026-10-06 16:09:49,671 - twister - DEBUG - Release DUT:nrf5340dk/nrf5340/cpuapp, Id:001050072722, counter:1, failures:1
+2026-10-06 16:09:49,674 - twister - ERROR - nrf5340dk/nrf5340/cpuapp  simple_tests.ptr_test                              [31mFAILED[39m: Unknown Error
+2026-10-06 16:09:49,675 - twister - ERROR - see: [33m/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/simple_tests/ptr_test/simple_tests.ptr_test/build.log[39m
+2026-10-06 16:09:49,676 - twister - DEBUG - Retain DUT:nrf5340dk/nrf5340/cpuapp, Id:001050072722, counter:2, failures:1
+2026-10-06 16:09:49,676 - twister - DEBUG - run test: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.always_succeed
+2026-10-06 16:09:49,676 - twister - DEBUG - Reset instance status from 'passed' to None before run.
+2026-10-06 16:09:49,676 - twister - DEBUG - Using serial device /dev/ttyACM0 @ 115200 baud
+2026-10-06 16:09:49,677 - twister - DEBUG - Flash command: ['west', 'flash', '--no-rebuild', '-d', '/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0', '--runner', 'nrfutil', '--', '--dev-id', '001050072722']
+2026-10-06 16:09:54,032 - twister - DEBUG - -- west flash: using runner nrfutil
+-- runners.nrfutil: reset after flashing requested
+-- runners.nrfutil: Flashing file: /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/zephyr/zephyr.hex
+-- runners.nrfutil: Connecting to probe
+-- runners.nrfutil: Erasing address ranges touched by firmware
+-- runners.nrfutil: Programming image
+-- runners.nrfutil: Verifying image
+-- runners.nrfutil: Reset
+-- runners.nrfutil: Board(s) with serial number(s) 1050072722 flashed successfully.
+
+2026-10-06 16:10:54,032 - twister - DEBUG - Timed out while monitoring serial output on nrf5340dk/nrf5340/cpuapp
+2026-10-06 16:10:54,035 - twister - DEBUG - Expected suite names:[]
+2026-10-06 16:10:54,035 - twister - DEBUG - Detected suite names:[]
+2026-10-06 16:10:54,035 - twister - DEBUG - run status: nrf5340dk/nrf5340/cpuapp/zephyr/gnu/simple_tests.always_succeed failed
+2026-10-06 16:10:54,035 - twister - DEBUG - Release DUT:nrf5340dk/nrf5340/cpuapp, Id:001050072722, counter:2, failures:2
+2026-10-06 16:10:54,039 - twister - ERROR - nrf5340dk/nrf5340/cpuapp  simple_tests.always_succeed                        [31mFAILED[39m: Unknown Error
+2026-10-06 16:10:54,039 - twister - ERROR - see: [33m/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/nrf5340dk_nrf5340_cpuapp/zephyr_gnu/simple_tests/always_succeed/simple_tests.always_succeed/build.log[39m
+2026-10-06 16:10:54,048 - twister - INFO - 2 test scenarios (2 configurations) selected, 0 configurations filtered (0 by static filter, 0 at runtime).
+2026-10-06 16:10:54,057 - twister - INFO - [31m0 of 2[39m executed test configurations passed (0.00%), 0 built (not run), [31m2[39m failed, 0 errored, with no warnings in 156.05 seconds.
+2026-10-06 16:10:54,057 - twister - INFO - 0 of 5 executed test cases passed (0.00%), 5 blocked on 1 out of total 1473 platforms (0.07%).
+2026-10-06 16:10:54,058 - twister - INFO - [32m2[39m test configurations executed on platforms, [36m0[39m test configurations were only built.
+2026-10-06 16:10:54,058 - twister - INFO - Saving reports...
+2026-10-06 16:10:54,058 - twister - INFO - Writing JSON report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister.json
+2026-10-06 16:10:54,059 - twister - INFO - Writing xunit report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister.xml...
+2026-10-06 16:10:54,061 - twister - INFO - Writing xunit report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_report.xml...
+2026-10-06 16:10:54,062 - twister - INFO - -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+2026-10-06 16:10:54,062 - twister - INFO - The following issues were found (showing the top 10 items):
+2026-10-06 16:10:54,062 - twister - INFO - 1) simple_tests.always_succeed on nrf5340dk/nrf5340/cpuapp failed (Unknown Error)
+2026-10-06 16:10:54,062 - twister - INFO - 2) simple_tests.ptr_test on nrf5340dk/nrf5340/cpuapp failed (Unknown Error)
+2026-10-06 16:10:54,062 - twister - INFO - 
+2026-10-06 16:10:54,062 - twister - INFO - To rerun the tests, call twister using the following commandline:
+2026-10-06 16:10:54,062 - twister - INFO - west twister -p <PLATFORM> -s <TEST ID>, for example:
+2026-10-06 16:10:54,062 - twister - INFO - 
+2026-10-06 16:10:54,063 - twister - INFO - west twister -p nrf5340dk/nrf5340/cpuapp -s simple_tests.ptr_test
+2026-10-06 16:10:54,063 - twister - INFO - or with west:
+2026-10-06 16:10:54,063 - twister - INFO - west build -p -b nrf5340dk/nrf5340/cpuapp simple_tests/ptr_test -T simple_tests.ptr_test
+2026-10-06 16:10:54,063 - twister - INFO - -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+2026-10-06 16:10:54,063 - twister - INFO - Run completed

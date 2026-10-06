@@ -1,0 +1,38 @@
+<testsuites>
+	<testsuite name="zpp_lib.zpp_rtos.mutex" time="63.29" timestamp="2026-10-06T15:59:16.823631" tests="1" failures="1" errors="0" skipped="0">
+		<properties>
+			<property name="version" value="v4.4.0" />
+			<property name="platform" value="nrf5340dk/nrf5340/cpuapp" />
+			<property name="architecture" value="arm" />
+		</properties>
+		<testcase classname="zpp_lib.zpp_rtos.mutex" name="zpp_lib.zpp_rtos.mutex.zpp_mutex.mutex_lock_unlock" time="63.29">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+	</testsuite>
+	<testsuite name="zpp_lib.zpp_rtos.semaphore" time="63.3" timestamp="2026-10-06T15:59:16.823631" tests="1" failures="1" errors="0" skipped="0">
+		<properties>
+			<property name="version" value="v4.4.0" />
+			<property name="platform" value="nrf5340dk/nrf5340/cpuapp" />
+			<property name="architecture" value="arm" />
+		</properties>
+		<testcase classname="zpp_lib.zpp_rtos.semaphore" name="zpp_lib.zpp_rtos.semaphore.zpp_semaphore.semaphore_release_acquire" time="63.30">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+	</testsuite>
+	<testsuite name="zpp_lib.zpp_rtos.thread" time="123.53" timestamp="2026-10-06T15:59:16.823631" tests="3" failures="3" errors="0" skipped="0">
+		<properties>
+			<property name="version" value="v4.4.0" />
+			<property name="platform" value="nrf5340dk/nrf5340/cpuapp" />
+			<property name="architecture" value="arm" />
+		</properties>
+		<testcase classname="zpp_lib.zpp_rtos.thread" name="zpp_lib.zpp_rtos.thread.zpp_thread.round_robin" time="0.00">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+		<testcase classname="zpp_lib.zpp_rtos.thread" name="zpp_lib.zpp_rtos.thread.zpp_thread.sleep_secondary_thread" time="0.00">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+		<testcase classname="zpp_lib.zpp_rtos.thread" name="zpp_lib.zpp_rtos.thread.zpp_thread.sleep_main" time="0.00">
+			<failure type="failure" message="Unknown Error" />
+		</testcase>
+	</testsuite>
+</testsuites>

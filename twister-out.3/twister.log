@@ -1,0 +1,40 @@
+2026-10-06 16:06:53,525 - twister - INFO - Using Ninja..
+2026-10-06 16:06:53,620 - twister - INFO - Zephyr version: v4.4.0
+2026-10-06 16:06:53,624 - twister - DEBUG - Running cmake script /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 16:06:53,625 - twister - DEBUG - Calling cmake: /usr/bin/cmake -DFORMAT=json -P /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 16:06:53,926 - twister - DEBUG - Finished running /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 16:06:53,926 - twister - INFO - Using 'zephyr/gnu' toolchain variant.
+2026-10-06 16:06:53,935 - twister - INFO - Scanning connected hardware...
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS31 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS30 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS29 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS28 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS27 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS26 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS25 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS24 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS23 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS22 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS21 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS20 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS19 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS18 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS17 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS16 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS15 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS14 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS13 - n/a
+2026-10-06 16:06:53,936 - twister - WARNING - Unsupported device (None): /dev/ttyS12 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS11 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS10 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS9 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS8 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS7 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS6 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS5 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS4 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS3 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS2 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS1 - n/a
+2026-10-06 16:06:53,937 - twister - WARNING - Unsupported device (None): /dev/ttyS0 - n/a
+2026-10-06 16:06:53,944 - twister - INFO - Detected devices:

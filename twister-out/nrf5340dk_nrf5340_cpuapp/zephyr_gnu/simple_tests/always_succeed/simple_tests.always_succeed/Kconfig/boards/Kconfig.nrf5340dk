@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/boards/nordic/nrf5340dk/Kconfig.nrf5340dk"

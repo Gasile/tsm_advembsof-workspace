@@ -1,0 +1,129 @@
+2026-10-06 15:24:58,611 - twister - INFO - Using Ninja..
+2026-10-06 15:24:58,703 - twister - INFO - Zephyr version: v4.4.0
+2026-10-06 15:24:58,708 - twister - DEBUG - Running cmake script /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 15:24:58,708 - twister - DEBUG - Calling cmake: /usr/bin/cmake -DFORMAT=json -P /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 15:24:59,047 - twister - DEBUG - Finished running /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/deps/zephyr/cmake/verify-toolchain.cmake
+2026-10-06 15:24:59,047 - twister - INFO - Using 'zephyr/gnu' toolchain variant.
+2026-10-06 15:25:00,628 - twister - DEBUG - Reading testsuite configuration files under /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests...
+2026-10-06 15:25:00,628 - twister - DEBUG - Found possible testsuite in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed
+2026-10-06 15:25:00,631 - twister - DEBUG - Found possible testsuite in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test
+2026-10-06 15:25:00,633 - twister - DEBUG - No duplicates found.
+2026-10-06 15:25:00,633 - twister - DEBUG -  platform filter: ['qemu_x86']
+2026-10-06 15:25:00,633 - twister - DEBUG - platform_pattern: []
+2026-10-06 15:25:00,633 - twister - DEBUG -    vendor filter: []
+2026-10-06 15:25:00,633 - twister - DEBUG -      arch_filter: None
+2026-10-06 15:25:00,633 - twister - DEBUG -       tag_filter: None
+2026-10-06 15:25:00,633 - twister - DEBUG -      exclude_tag: None
+2026-10-06 15:25:00,633 - twister - DEBUG - Checking platform filter: ['qemu_x86']
+2026-10-06 15:25:00,633 - twister - INFO - Building initial testsuite list...
+2026-10-06 15:25:00,634 - twister - INFO - Built testsuite list in 0.00 seconds
+2026-10-06 15:25:00,634 - twister - INFO - Writing JSON report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/testplan.json
+2026-10-06 15:25:00,656 - twister - INFO - JOBS: 24
+2026-10-06 15:25:00,657 - twister - INFO - Adding tasks to the queue...
+2026-10-06 15:25:00,657 - twister - DEBUG - adding qemu_x86/atom/zephyr/gnu/simple_tests.always_succeed
+2026-10-06 15:25:00,658 - twister - DEBUG - adding qemu_x86/atom/zephyr/gnu/simple_tests.ptr_test
+2026-10-06 15:25:00,659 - twister - INFO - Added initial list of jobs to queue
+2026-10-06 15:25:00,666 - twister - DEBUG - Running cmake on /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test for qemu_x86/atom
+2026-10-06 15:25:00,667 - twister - DEBUG - Calling cmake: /usr/bin/cmake -B/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_1 -DTC_RUNID=29dadd798559122473fcc9ab21722be8 -DTC_NAME=simple_tests.ptr_test -DCONFIG_COMPILER_WARNINGS_AS_ERRORS=y -DEXTRA_GEN_EDT_ARGS=--edtlib-Werror -GNinja -DPython3_EXECUTABLE=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/python3.12 -DZEPHYR_TOOLCHAIN_VARIANT=zephyr/gnu -S/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test -DQEMU_PIPE=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_1/qemu-fifo '-DEXTRA_CONF_FILE=../../deps/zpp_lib/configs/prj.conf;../../deps/zpp_lib/configs/prj_log.conf;../../deps/zpp_lib/configs/prj_debug.conf;../../deps/zpp_lib/configs/prj_test.conf' -DBOARD=qemu_x86/atom
+2026-10-06 15:25:00,669 - twister - DEBUG - Running cmake on /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed for qemu_x86/atom
+2026-10-06 15:25:00,670 - twister - DEBUG - Calling cmake: /usr/bin/cmake -B/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0 -DTC_RUNID=0e9d791cbf357fb413a1106c463ebae1 -DTC_NAME=simple_tests.always_succeed -DCONFIG_COMPILER_WARNINGS_AS_ERRORS=y -DEXTRA_GEN_EDT_ARGS=--edtlib-Werror -GNinja -DPython3_EXECUTABLE=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/.venv/bin/python3.12 -DZEPHYR_TOOLCHAIN_VARIANT=zephyr/gnu -S/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed -DQEMU_PIPE=/home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/qemu-fifo '-DEXTRA_CONF_FILE=../../deps/zpp_lib/configs/prj.conf;../../deps/zpp_lib/configs/prj_log.conf;../../deps/zpp_lib/configs/prj_debug.conf;../../deps/zpp_lib/configs/prj_test.conf' -DBOARD=qemu_x86/atom
+2026-10-06 15:25:00,702 - twister - DEBUG - Launched 24 jobs
+2026-10-06 15:25:08,958 - twister - DEBUG - Finished running cmake /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed for qemu_x86/atom in 8.29 seconds
+2026-10-06 15:25:08,958 - twister - DEBUG - Finished running cmake /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test for qemu_x86/atom in 8.29 seconds
+2026-10-06 15:25:08,962 - twister - DEBUG - build test: qemu_x86/atom/zephyr/gnu/simple_tests.ptr_test
+2026-10-06 15:25:08,962 - twister - DEBUG - Building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test for qemu_x86/atom
+2026-10-06 15:25:08,962 - twister - DEBUG - build test: qemu_x86/atom/zephyr/gnu/simple_tests.always_succeed
+2026-10-06 15:25:08,963 - twister - DEBUG - Building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed for qemu_x86/atom
+2026-10-06 15:25:08,963 - twister - DEBUG - Running /usr/bin/cmake --build /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_1
+2026-10-06 15:25:08,963 - twister - DEBUG - Running /usr/bin/cmake --build /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0
+2026-10-06 15:25:17,633 - twister - DEBUG - Finished building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/always_succeed for qemu_x86/atom in 8.67 seconds
+2026-10-06 15:25:17,634 - twister - DEBUG - Determine test cases for test instance: qemu_x86/atom/zephyr/gnu/simple_tests.always_succeed
+2026-10-06 15:25:17,634 - twister - DEBUG - Determine test cases for test suite: simple_tests.always_succeed
+2026-10-06 15:25:17,694 - twister - DEBUG - Test instance qemu_x86/atom/zephyr/gnu/simple_tests.always_succeed already has 1 testcase(s) known: [<TestCase simple_tests.always_succeed with None>]
+2026-10-06 15:25:17,694 - twister - DEBUG - Detected 1 Ztest case(s): [simple_tests.always_succeed.always_succeed.equality] in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_0/zephyr/zephyr.elf
+2026-10-06 15:25:17,698 - twister - DEBUG - run test: qemu_x86/atom/zephyr/gnu/simple_tests.always_succeed
+2026-10-06 15:25:17,698 - twister - DEBUG - Reset instance status from 'passed' to None before run.
+2026-10-06 15:25:17,698 - twister - DEBUG - Spawning QEMUHandler Thread for qemu_x86/atom/zephyr/gnu/simple_tests.always_succeed
+2026-10-06 15:25:17,700 - twister - DEBUG - Running qemu_x86/atom/zephyr/gnu/simple_tests.always_succeed (qemu)
+2026-10-06 15:25:17,701 - twister - DEBUG - Spawning QEMUHandler Thread for qemu_x86/atom/zephyr/gnu/simple_tests.always_succeed
+2026-10-06 15:25:17,811 - twister - DEBUG - Finished building /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/simple_tests/ptr_test for qemu_x86/atom in 8.85 seconds
+2026-10-06 15:25:17,812 - twister - DEBUG - Determine test cases for test instance: qemu_x86/atom/zephyr/gnu/simple_tests.ptr_test
+2026-10-06 15:25:17,812 - twister - DEBUG - Determine test cases for test suite: simple_tests.ptr_test
+2026-10-06 15:25:17,862 - twister - DEBUG - QEMU (282465): [0mSeaBIOS (version zephyr-v1.16.3-2-0-gf8da0cc-zephyr)
+2026-10-06 15:25:17,874 - twister - DEBUG - Test instance qemu_x86/atom/zephyr/gnu/simple_tests.ptr_test already has 1 testcase(s) known: [<TestCase simple_tests.ptr_test with None>]
+2026-10-06 15:25:17,874 - twister - DEBUG - Detected 4 Ztest case(s): [simple_tests.ptr_test.ptr_test.raw_pointers, simple_tests.ptr_test.ptr_test.unique_ptr, simple_tests.ptr_test.ptr_test.instance_sharing, simple_tests.ptr_test.ptr_test.single_sharedptr_lifetime] in /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_links/test_1/zephyr/zephyr.elf
+2026-10-06 15:25:17,878 - twister - DEBUG - run test: qemu_x86/atom/zephyr/gnu/simple_tests.ptr_test
+2026-10-06 15:25:17,878 - twister - DEBUG - Reset instance status from 'passed' to None before run.
+2026-10-06 15:25:17,879 - twister - DEBUG - Spawning QEMUHandler Thread for qemu_x86/atom/zephyr/gnu/simple_tests.ptr_test
+2026-10-06 15:25:17,881 - twister - DEBUG - Running qemu_x86/atom/zephyr/gnu/simple_tests.ptr_test (qemu)
+2026-10-06 15:25:17,881 - twister - DEBUG - Spawning QEMUHandler Thread for qemu_x86/atom/zephyr/gnu/simple_tests.ptr_test
+2026-10-06 15:25:17,892 - twister - DEBUG - QEMU (282465): Booting from ROM..
+2026-10-06 15:25:17,906 - twister - DEBUG - QEMU (282465): Running TESTSUITE always_succeed
+2026-10-06 15:25:17,907 - twister - DEBUG - QEMU (282465): ===================================================================
+2026-10-06 15:25:17,907 - twister - DEBUG - QEMU (282465): START - test_equality
+2026-10-06 15:25:17,910 - twister - DEBUG - QEMU (282465):  PASS - test_equality in 0.001 seconds
+2026-10-06 15:25:17,910 - twister - DEBUG - QEMU (282465): ===================================================================
+2026-10-06 15:25:17,910 - twister - DEBUG - QEMU (282465): TESTSUITE always_succeed succeeded
+2026-10-06 15:25:17,911 - twister - DEBUG - QEMU (282465): 
+2026-10-06 15:25:17,911 - twister - DEBUG - QEMU (282465): ------ TESTSUITE SUMMARY START ------
+2026-10-06 15:25:17,911 - twister - DEBUG - QEMU (282465): 
+2026-10-06 15:25:17,911 - twister - DEBUG - QEMU (282465): SUITE PASS - 100.00% [always_succeed]: pass = 1, fail = 0, skip = 0, total = 1 duration = 0.001 seconds
+2026-10-06 15:25:17,911 - twister - DEBUG - QEMU (282465):  - PASS - [always_succeed.test_equality] duration = 0.001 seconds
+2026-10-06 15:25:17,912 - twister - DEBUG - QEMU (282465): 
+2026-10-06 15:25:17,912 - twister - DEBUG - QEMU (282465): ------ TESTSUITE SUMMARY END ------
+2026-10-06 15:25:17,912 - twister - DEBUG - QEMU (282465): 
+2026-10-06 15:25:17,912 - twister - DEBUG - QEMU (282465): ===================================================================
+2026-10-06 15:25:17,912 - twister - DEBUG - QEMU (282465): RunID: 0e9d791cbf357fb413a1106c463ebae1
+2026-10-06 15:25:17,912 - twister - DEBUG - QEMU (282465): PROJECT EXECUTION SUCCESSFUL
+2026-10-06 15:25:18,021 - twister - DEBUG - QEMU (282476): [0mSeaBIOS (version zephyr-v1.16.3-2-0-gf8da0cc-zephyr)
+2026-10-06 15:25:18,050 - twister - DEBUG - QEMU (282476): Booting from ROM..
+2026-10-06 15:25:18,064 - twister - DEBUG - QEMU (282476): Running TESTSUITE ptr_test
+2026-10-06 15:25:18,065 - twister - DEBUG - QEMU (282476): ===================================================================
+2026-10-06 15:25:18,065 - twister - DEBUG - QEMU (282476): START - test_instance_sharing
+2026-10-06 15:25:18,069 - twister - DEBUG - QEMU (282476):  PASS - test_instance_sharing in 0.001 seconds
+2026-10-06 15:25:18,069 - twister - DEBUG - QEMU (282476): ===================================================================
+2026-10-06 15:25:18,069 - twister - DEBUG - QEMU (282476): START - test_raw_pointers
+2026-10-06 15:25:18,070 - twister - DEBUG - QEMU (282476):  PASS - test_raw_pointers in 0.001 seconds
+2026-10-06 15:25:18,071 - twister - DEBUG - QEMU (282476): ===================================================================
+2026-10-06 15:25:18,071 - twister - DEBUG - QEMU (282476): START - test_single_sharedptr_lifetime
+2026-10-06 15:25:18,071 - twister - DEBUG - QEMU (282476):  PASS - test_single_sharedptr_lifetime in 0.001 seconds
+2026-10-06 15:25:18,071 - twister - DEBUG - QEMU (282476): ===================================================================
+2026-10-06 15:25:18,071 - twister - DEBUG - QEMU (282476): START - test_unique_ptr
+2026-10-06 15:25:18,071 - twister - DEBUG - QEMU (282476):  PASS - test_unique_ptr in 0.001 seconds
+2026-10-06 15:25:18,072 - twister - DEBUG - QEMU (282476): ===================================================================
+2026-10-06 15:25:18,072 - twister - DEBUG - QEMU (282476): TESTSUITE ptr_test succeeded
+2026-10-06 15:25:18,072 - twister - DEBUG - QEMU (282476): 
+2026-10-06 15:25:18,072 - twister - DEBUG - QEMU (282476): ------ TESTSUITE SUMMARY START ------
+2026-10-06 15:25:18,072 - twister - DEBUG - QEMU (282476): 
+2026-10-06 15:25:18,073 - twister - DEBUG - QEMU (282476): SUITE PASS - 100.00% [ptr_test]: pass = 4, fail = 0, skip = 0, total = 4 duration = 0.004 seconds
+2026-10-06 15:25:18,073 - twister - DEBUG - QEMU (282476):  - PASS - [ptr_test.test_instance_sharing] duration = 0.001 seconds
+2026-10-06 15:25:18,073 - twister - DEBUG - QEMU (282476):  - PASS - [ptr_test.test_raw_pointers] duration = 0.001 seconds
+2026-10-06 15:25:18,073 - twister - DEBUG - QEMU (282476):  - PASS - [ptr_test.test_single_sharedptr_lifetime] duration = 0.001 seconds
+2026-10-06 15:25:18,073 - twister - DEBUG - QEMU (282476):  - PASS - [ptr_test.test_unique_ptr] duration = 0.001 seconds
+2026-10-06 15:25:18,073 - twister - DEBUG - QEMU (282476): 
+2026-10-06 15:25:18,074 - twister - DEBUG - QEMU (282476): ------ TESTSUITE SUMMARY END ------
+2026-10-06 15:25:18,074 - twister - DEBUG - QEMU (282476): 
+2026-10-06 15:25:18,074 - twister - DEBUG - QEMU (282476): ===================================================================
+2026-10-06 15:25:18,074 - twister - DEBUG - QEMU (282476): RunID: 29dadd798559122473fcc9ab21722be8
+2026-10-06 15:25:18,074 - twister - DEBUG - QEMU (282476): PROJECT EXECUTION SUCCESSFUL
+2026-10-06 15:25:18,914 - twister - DEBUG - QEMU (282465) complete with passed (None) after 1.1447443962097168 seconds
+2026-10-06 15:25:18,917 - twister - DEBUG - No timeout, return code from QEMU (None): 0
+2026-10-06 15:25:18,917 - twister - DEBUG - return code from QEMU (None): 0
+2026-10-06 15:25:18,917 - twister - DEBUG - Expected suite names:[]
+2026-10-06 15:25:18,917 - twister - DEBUG - Detected suite names:['always_succeed']
+2026-10-06 15:25:18,917 - twister - DEBUG - run status: qemu_x86/atom/zephyr/gnu/simple_tests.always_succeed passed
+2026-10-06 15:25:19,076 - twister - DEBUG - QEMU (282476) complete with passed (None) after 1.145275592803955 seconds
+2026-10-06 15:25:19,097 - twister - DEBUG - No timeout, return code from QEMU (None): 0
+2026-10-06 15:25:19,098 - twister - DEBUG - return code from QEMU (None): 0
+2026-10-06 15:25:19,098 - twister - DEBUG - Expected suite names:[]
+2026-10-06 15:25:19,098 - twister - DEBUG - Detected suite names:['ptr_test']
+2026-10-06 15:25:19,098 - twister - DEBUG - run status: qemu_x86/atom/zephyr/gnu/simple_tests.ptr_test passed
+2026-10-06 15:25:19,108 - twister - INFO - 2 test scenarios (2 configurations) selected, 0 configurations filtered (0 by static filter, 0 at runtime).
+2026-10-06 15:25:19,114 - twister - INFO - [32m2 of 2[39m executed test configurations passed (100.00%), 0 built (not run), 0 failed, 0 errored, with no warnings in 20.50 seconds.
+2026-10-06 15:25:19,114 - twister - INFO - 5 of 5 executed test cases passed (100.00%) on 1 out of total 1473 platforms (0.07%).
+2026-10-06 15:25:19,114 - twister - INFO - [32m2[39m test configurations executed on platforms, [36m0[39m test configurations were only built.
+2026-10-06 15:25:19,114 - twister - INFO - Saving reports...
+2026-10-06 15:25:19,114 - twister - INFO - Writing JSON report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister.json
+2026-10-06 15:25:19,115 - twister - INFO - Writing xunit report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister.xml...
+2026-10-06 15:25:19,118 - twister - INFO - Writing xunit report /home/gasile/Documents/MASTER/AdvEmbSof/tsm_advembsof-workspace/twister-out/twister_report.xml...
+2026-10-06 15:25:19,118 - twister - INFO - Run completed
